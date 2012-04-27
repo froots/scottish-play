@@ -5,10 +5,6 @@ module Source
   class Play
     def initialize(path)
       @path = path
-      @act_count = 0
-      @scene_count = 0
-      @paragraph_count = 0
-      @line_count = 0
     end
 
     def load(output = true)
@@ -29,13 +25,6 @@ module Source
       Paragraph.destroy_all
       Line.destroy_all
       @doc.css('Act').each { |act| update_act(act) }
-      if (output) then
-        puts "Updated:"
-        puts "#{@act_count} acts"
-        puts "#{@scene_count} scenes"
-        puts "#{@paragraph_count} paragraphs"
-        puts "#{@line_count} lines"
-      end
     end
 
   private
@@ -45,14 +34,12 @@ module Source
       a = Act.find_or_initialize_by_number(act_number)
       a.save!
       process_scenes(a, act);
-      @act_count += 1
     end
 
     def process_scenes(act_model, act)
       act.css('Scene').each do |scene|
         scene_model = act_model.scenes.create({ number: scene['number'].to_i })
         process_paragraphs(scene_model, scene);
-        @scene_count += 1
       end
     end
 
@@ -70,9 +57,17 @@ module Source
           number: paragraph.at_css('ParagraphNum').text.to_i,
         });
         paragraph_model.character = Character.find_by_char_id paragraph.at_css('CharID').text
-        puts paragraph_model.character
         paragraph_model.save!
-        @paragraph_count += 1
+        process_lines(paragraph_model, paragraph)
+      end
+    end
+
+    def process_lines(paragraph_model, paragraph)
+      paragraph.css('Line').each do |line|
+        paragraph_model.lines.create({
+          number: line['number'].to_i,
+          text: line.text
+        })
       end
     end
 

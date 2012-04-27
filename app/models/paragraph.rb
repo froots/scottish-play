@@ -3,4 +3,8 @@ class Paragraph < ActiveRecord::Base
   belongs_to :character
   belongs_to :scene
   has_many :lines
+
+  def act
+    scene.act
+  end
 end

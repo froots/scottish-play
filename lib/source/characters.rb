@@ -22,14 +22,12 @@ module Source
 
     def update(output = true)
       @doc.css('Characters').each { |character| update_character(character) }
-      puts "#{@character_count} characters added or modified" if output
     end
 
   private
 
     def update_character(character)
       char_id = character.at_css('CharID').text
-      puts char_id
       c = Character.find_or_initialize_by_char_id(char_id)
       c.update_attributes(character_attributes(character))
       @character_count += 1
