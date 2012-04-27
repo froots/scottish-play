@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  char_id: MyString
+  name: MyString
+  speech_count: 1
+  short_name: MyString
+  description: MyText
+
+two:
+  char_id: MyString
+  name: MyString
+  speech_count: 1
+  short_name: MyString
+  description: MyText
