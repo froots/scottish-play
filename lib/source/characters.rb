@@ -11,7 +11,7 @@ module Source
     def load(output = true)
       @doc = Nokogiri::XML load_file(output) do |config|
       end
-      puts "Feed source has #{@doc.css('Characters')} characters" if output
+      puts "Feed source has #{@doc.css('Characters').size} characters" if output
     end
 
     def load_file(output = true)

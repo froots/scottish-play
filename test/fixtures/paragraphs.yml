@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  section: 1
+  phonetic: MyText
+  word_count: 1
+  char_count: 1
+  chapter: 1
+  stem_text: MyText
+  paragraph_id: 1
+  number: 1
+
+two:
+  type: 
+  section: 1
+  phonetic: MyText
+  word_count: 1
+  char_count: 1
+  chapter: 1
+  stem_text: MyText
+  paragraph_id: 1
+  number: 1

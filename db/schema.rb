@@ -11,7 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120427110743) do
+ActiveRecord::Schema.define(:version => 20120427114719) do
+
+  create_table "acts", :force => true do |t|
+    t.integer  "number"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "characters", :force => true do |t|
     t.string   "char_id"
@@ -21,6 +27,37 @@ ActiveRecord::Schema.define(:version => 20120427110743) do
     t.text     "description"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "lines", :force => true do |t|
+    t.integer  "number"
+    t.text     "text"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.integer  "paragraph_id"
+  end
+
+  create_table "paragraphs", :force => true do |t|
+    t.string   "paragraph_type"
+    t.integer  "section"
+    t.text     "phonetic"
+    t.integer  "word_count"
+    t.integer  "char_count"
+    t.integer  "chapter"
+    t.text     "stem_text"
+    t.integer  "paragraph_id"
+    t.integer  "number"
+    t.integer  "scene_id"
+    t.integer  "character_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  create_table "scenes", :force => true do |t|
+    t.integer  "number"
+    t.integer  "act_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
