@@ -1,4 +1,9 @@
 namespace :import do
+  task :curl_macbeth do
+    `mkdir -p tmp/source`
+    `curl http://dl.dropbox.com/u/28026453/scottish_play.zip > tmp/source/scottish_play.zip`
+    `unzip tmp/source/scottish_play.zip -d tmp/source`
+  end
   
   task :local => :environment do
     characters = Source::Characters.new("tmp/source/macbeth_characters.xml")
