@@ -9,7 +9,8 @@ class AudienceMember extends Backbone.View
         @animate()
 
   animate: =>
-    @$('img').animate {width: 150}, -> $(this).animate({width: 100})
+    width = @$('img').width()
+    @$('img').animate {width: 150, 100}, -> $(this).animate({width: width, 200})
 
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl())
