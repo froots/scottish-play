@@ -123,12 +123,25 @@
     className: 'character',
 
     initialize: function() {
+      var vent = Shake.Vent;
+      _.bindAll(this, "onPlayerDeliver", "onSceneEnd");
       this.tmpl = JST['templates/character'];
+      vent.bind("client-player:deliver", this.onPlayerDeliver);
+      vent.bind("client-scene:end", this.onSceneEnd);
     },
 
     render: function() {
       this.$el.html(this.tmpl(this.model.toJSON()));
+      this.$waiting = this.$('.waiting');
+      this.$yourTurn = this.$('.your-turn');
+      this.$otherTurn = this.$('.other-turn');
+      this.$end = this.$('.end');
       return this;
+    },
+
+    onPlayerDeliver: function(data) {
+      this.$waiting.hide();
+      console.log(data);
     }
   }),
 
