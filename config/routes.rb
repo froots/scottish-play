@@ -12,7 +12,14 @@ ScottishPlay::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  resources :pusher do
+    collection do
+      get 'server'
+      get 'client'
+      get 'login'
+      post 'auth'
+    end
+  end
   # Sample resource route with options:
   #   resources :products do
   #     member do

@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require namespace
+//= require pusher/vent
 //= require_tree .
+//
