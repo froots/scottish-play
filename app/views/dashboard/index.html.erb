@@ -4,4 +4,7 @@
 var Shake = window.Shake || {};
 Shake.characters = <%= @characters.to_json.html_safe %>;
 Shake.scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
+Shake.players = [];
+var server = new Shake.Server();
+server.init();
 </script>
