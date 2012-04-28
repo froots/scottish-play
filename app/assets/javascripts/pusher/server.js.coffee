@@ -3,4 +3,5 @@ class window.Shake.Server
     vent = Shake.Vent
     vent.bind 'pusher:subscription_succeeded', ->
       vent.bind 'client-login', (d) ->
-        alert "#{d} has entered the theatre"
+        Shake.players.push d
+        console.log d
