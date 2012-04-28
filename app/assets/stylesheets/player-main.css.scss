@@ -1,0 +1,57 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+ 
+* { box-sizing: border-box; }
+ 
+body {
+  background: #fff;
+  color: #222;
+  padding: 10px;
+}
+ 
+body, input, textarea {
+  font: normal 16px "Georgia", "Times New Roman", serif;
+}
+ 
+h1 {
+  font: normal 36px/1.2 'Jim Nightshade', cursive;
+  text-align: center;
+  margin-bottom: 16px;
+}
+ 
+input[type=text] {
+  border: 1px solid #ccc;
+  font-size: 28px;
+  padding: 4px;
+  display: block;
+  margin: .5em 0;
+  width: 100%;
+}
+ 
+input[type=submit] {
+  background: #930;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 28px;
+  width: 100%;
+}
+ 
+label {
+  display: block;
+  margin: .5em 0;
+}
+ 
+.enter {
+  text-align: center;
+}
+ 
+.sorting {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+  .cauldron {
+    background: transparent url(/assets/cauldron.png) 50% 50% no-repeat;
+    height: 164px;
+    margin: 20px 0;
+  }
+}
