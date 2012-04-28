@@ -1,11 +1,23 @@
 (function() {
   var App = Backbone.View.extend({
     initialize: function() {
-      this.on('login', this.showRoleChoiceView, this);
+      this.views = {};
+      this.models = {};
+      this.on('login', this.showSortingView, this);
     },
 
-    showRoleChoiceView: function() {
-      console.log('roleChoiceView');
+    showSortingView: function() {
+      var vent = Shake.getVent();
+      this.views.sortingView = new SortingView();
+      this.views.sortingView.render().$el.appendTo(this.$el);
+      vent.trigger("client-player:register", vent.members.me.info.name);
+      // use below to save player details to model
+      // vent.bind('pusher:subscription_succeeded', this.onRegister, this);
+    },
+
+    onRegister: function() {
+      var vent = Shake.Vent;
+      console.log(vent.members.me);
     }
   }),
 
@@ -15,10 +27,15 @@
     },
 
     index: function() {
-      var enterView = new EnterView().render().$el.appendTo(app.$el);
+      app.views.enterView = new EnterView().render().$el.appendTo(app.$el);
     }
   }),
 
+  // Models
+  Player = Backbone.Model.extend({}),
+
+
+  // Views
   EnterView = Backbone.View.extend({
     initialize: function() {
       this.tmpl = _.template($('#tmpl-enter').html());
@@ -45,6 +62,7 @@
         data: { user_id: screenName }, 
         dataType: 'text',
         success: function() {
+          app.models.player = new Player({ screenName: screenName });
           app.trigger('login');
           view.remove();
         },
@@ -52,6 +70,20 @@
           view.$('.message').text('Dissembling harlot, thou art false in all!');
         }
       });
+    }
+  }),
+
+  SortingView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'sorting',
+
+    initialize: function() {
+      this.tmpl = _.template($('#tmpl-sorting').html());
+    },
+
+    render: function() {
+      this.$el.html(this.tmpl());
+      return this;
     }
   }),
 
