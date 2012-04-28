@@ -17,6 +17,16 @@ h1 {
   text-align: center;
   margin-bottom: 16px;
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+p {
+  margin: 1em 0;
+}
  
 input[type=text] {
   border: 1px solid #ccc;
@@ -28,12 +38,13 @@ input[type=text] {
 }
  
 input[type=submit] {
-  background: #930;
+  background-color: #930;
   border: 0;
   border-radius: 5px;
   color: #fff;
   font-size: 28px;
   width: 100%;
+  -webkit-appearance: none;
 }
  
 label {
@@ -54,4 +65,36 @@ label {
     height: 164px;
     margin: 20px 0;
   }
+}
+
+h2.bar {
+  background-color: #930;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.throw {
+  background-color: #930;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 30px;
+  width: 45%;
+  margin-right: 5%;
+  float: left;
+  padding: 1em 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flowers {
+  background-image: url(/assets/flowers.png);
+  background-size: 100%;
+}
+
+.tomato {
+  background-image: url(/assets/tomato.png);
+  background-size: 100%;
 }
