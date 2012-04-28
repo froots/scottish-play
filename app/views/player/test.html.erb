@@ -12,9 +12,7 @@ vent.bind('pusher:subscription_succeeded', function() {
 	vent.bind('client-player:deliver', function(data) {
 		console.log(data.user_id, 'speaking', data.lines);
 		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), object: 'abuse'});
-		setTimeout(function() {
-			vent.trigger('client-player:exunt', {});
-		}, 1000);
+		vent.trigger('client-player:exunt', {});
 	});
 });
 </script>
