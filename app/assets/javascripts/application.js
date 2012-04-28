@@ -16,5 +16,6 @@
 //= require backbone
 //= require namespace
 //= require pusher/vent
+//= require jquery.jplayer
 //= require_tree .
 //
