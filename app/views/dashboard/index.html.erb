@@ -1,5 +1,7 @@
 <div id="feed"></div>
 <div id="cast"></div>
+<h1>lines</h1>
+<ol id="lines"></ol>
 <div id="audience"></div>
 <button type="button" id="go-button">Start</button>
 
@@ -25,5 +27,8 @@
     el: $('#audience'),
     players: Shake.Game.Players
   }).render();
-
+  var lines = new Shake.ServerViews.Lines({
+    el: $('#lines'),
+    players: Shake.Game.Players
+  }).render();
 </script>
