@@ -1,5 +1,5 @@
 ScottishPlay::Application.routes.draw do
-  get "dashboard/index"
+  get "dashboard" => "dashboard#index"
 
   get "player/index"
 
