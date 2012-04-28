@@ -1,6 +1,6 @@
 <h2 class="bar">Your turn!</h2>
 <p>Speak your lines, <%= player.character %></p>
-<ul>
+<ul class="lines">
   <% _.each(deliver.lines, function(line) { %>
     <li><%= line.text %></li>
   <% }); %>

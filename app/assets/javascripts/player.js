@@ -30,8 +30,10 @@
 
     onAssignRole: function(data) {
       var vent = Shake.Vent,
-          player = this.models.player;
+          player = this.models.player,
+          assigned = false;
       if (data.user_id === player.get('name')) {
+        assigned = true;
         player.set({ role: data.role });
         this.views.sorting.$el.hide();
         if (data.character && !('characterView' in this.views)) {
