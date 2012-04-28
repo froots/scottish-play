@@ -84,9 +84,7 @@ Game.loadNextParagraph = ->
   Game.currentParagraph != null
 
 Game.getCurrentCharacter = ->
-  if Shake.Game.currentParagraph == null
-    return null
-  Game.Characters.get Shake.Game.currentParagraph.character_id
+  Game.Characters.get Shake.Game.currentParagraph.character_id unless Shake.Game.currentParagraph == null
 
 
 window.Shake.Game = Game

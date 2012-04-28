@@ -15,13 +15,11 @@ class AudienceMember extends Backbone.View
     if obj == 'veg'
       @$('.tomato').animate animateAttrs, 400, -> 
         $(this).css({width: 0, right: 10, bottom: 10})
-        if (currentCharacter != null)
-          Shake.Game.Players.trigger 'veg', {user_id: currentCharacter.get('actor')}
+        Shake.Game.Players.trigger 'veg', {user_id: currentCharacter.get('actor')} unless currentCharacter == null
     if obj == 'flowers'
       @$('.flowers').animate animateAttrs, 400, -> 
         $(this).css({width: 0, right: 10, bottom: 10})
-        if (currentCharacter != null)
-          Shake.Game.Players.trigger 'flowers', {user_id: currentCharacter.get('actor')}
+        Shake.Game.Players.trigger 'flowers', {user_id: currentCharacter.get('actor')} unless currentCharacter == null
 
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl())
