@@ -3,12 +3,7 @@ class window.Shake.Server
   
   init: ->
     vent = Shake.getVent()
-
     game = Shake.Game
-
-    #game.Players.bind 'add', (player) ->
-    #  $("##{player.get('role')}").append $('<img>').attr('src', player.twitterAvatarUrl())
-
 
     vent.bind 'pusher:subscription_succeeded', =>
       vent.bind 'client-player:register', @onRegister
@@ -40,4 +35,4 @@ class window.Shake.Server
     console.log data.user_id, 'hurled', data.object
 
   endGame: ->
-    vent.trigger('client-scene:end', {})
+    vent.trigger('client-scene:end', Shake.Game.Players.scores)

@@ -23,7 +23,7 @@ class Shake.ServerViews.Cast extends Backbone.View
     @options.players.bind "add", (player) =>
       if player.get('role') == 'cast'
         @addOne(player)
-    
+ 
   render: =>
     @
 

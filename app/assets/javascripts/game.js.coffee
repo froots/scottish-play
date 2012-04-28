@@ -25,6 +25,21 @@ class Player extends Backbone.Model
 
 class Players extends Backbone.Collection
   model: Player
+
+  initialize: ->
+    @currentPlayer = null
+    @scores = {}
+    @bind 'deliver', (data) =>
+      @currentPlayer = data.user_id
+      @scores[@currentPlayer] ||= 0
+
+
+  bindScores: =>
+    Shake.Vent.bind 'client-player:hurl', (data) =>
+      unless _.isUndefined @scores[@currentPlayer]
+        @scores[@currentPlayer] -= 1 if data.object == 'veg'
+        @scores[@currentPlayer] += 1 if data.object == 'flowers'
+
   
 
 class Character extends Backbone.Model
@@ -69,5 +84,6 @@ Game.loadNextParagraph = ->
 
 Game.getCurrentCharacter = ->
   Game.Characters.get Shake.Game.currentParagraph.character_id
+
 
 window.Shake.Game = Game
