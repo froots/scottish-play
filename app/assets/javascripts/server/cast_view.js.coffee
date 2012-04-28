@@ -47,6 +47,7 @@ class CastMember extends Backbone.View
   	  left = 0
   	top = 23 * Math.floor(noFlowers / 4)
   	@$el.append $('<img class="decoration flower" src="/assets/flowers.png" />').css({left: left, top: top})
+    Shake.Sounds.playSound 'pop'
 
 class Shake.ServerViews.Cast extends Backbone.View
   initialize: ->
