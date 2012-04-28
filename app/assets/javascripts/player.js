@@ -9,8 +9,8 @@
 
     showSortingView: function() {
       var vent = Shake.getVent();
-      this.views.sortingView = new SortingView();
-      this.views.sortingView.render().$el.appendTo(this.$el);
+      this.views.sorting = new SortingView();
+      this.views.sorting.render().$el.appendTo(this.$el);
       
       // use below to save player details to model
       vent.bind('pusher:subscription_succeeded', $.proxy(this.onRegister, this));
@@ -22,7 +22,6 @@
           player = this.models.player;
 
       player.set({ name: name });
-      console.log(player);
 
       vent.trigger("client-player:register", name);
       this.assignRoleProxy = $.proxy(this.onAssignRole, this);
@@ -34,20 +33,20 @@
           player = this.models.player;
       if (data.user_id === player.get('name')) {
         player.set({ role: data.role });
-        if (data.character) {
+        this.views.sorting.$el.hide();
+        if (data.character && !('characterView' in this.views)) {
           player.set({ character: data.character });
           this.views.characterView = new CharacterView({
             model: player
           });
           this.views.characterView.render().$el.appendTo(this.$el);
-        } else {
+          this.onGameStartProxy = $.proxy(this.onGameStart, this);
+        } else if (!('audienceView' in this.views)) {
           this.views.audienceView = new AudienceView({
             model: player
           });
           this.views.audienceView.render().$el.appendTo(this.$el);
         }
-        // var msg = "You are in the "+data.role;
-        // msg += ", playing the part of "+data.character;
       }
     }
   }),
@@ -138,12 +137,22 @@
     className: 'audience',
 
     initialize: function() {
+      var vent = Shake.Vent;
+      _.bindAll(this, "onSceneStart");
       this.tmpl = JST['templates/audience'];
+      vent.bind("client-scene:start", this.onSceneStart);
     },
 
     render: function() {
       this.$el.html(this.tmpl(this.model.toJSON()));
+      this.$waiting = this.$('.waiting');
+      this.$vote = this.$('.vote');
       return this;
+    },
+
+    onSceneStart: function() {
+      this.$waiting.hide();
+      this.$vote.show();
     }
   }),
 
