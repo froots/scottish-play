@@ -19,6 +19,7 @@ body {
 #stage {
   padding: 1px;
   #speech-bubble {
+    display: none;
     background-color: white;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -39,13 +40,20 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 200px;
-    width: 600px;
-    margin-left: 100px;
+    height: 350px;
+    width: 800px;
+    margin-left: 30px;
+    .avatar {
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+    }
     .cast-member { 
       display: inline-block;
-      margin: 20px;
+      margin: 20px 40px;
       position: relative;
+    }
+    .cast-character {
+      margin-top: 10px;
     }
   }
 }
@@ -53,8 +61,9 @@ body {
 #audience {
   .audience-member {
     display: inline-block;
-    margin: 10px;
-    width: 80px;
+    margin: 20px;
+    margin-bottom: 0;
+    width: 50px;
     position: relative;
     .tomato, .flowers {
       position: absolute;

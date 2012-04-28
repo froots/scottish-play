@@ -31,7 +31,14 @@ class CastMember extends Backbone.View
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl()).addClass('avatar').bind 'load', =>
       @dimensions = {height: @$el.height(), width: @$el.width()}
-    $(@el).append(img).addClass('cast-member')
+
+    char = @options.model.get('character').toLowerCase()
+    char += "-mac" if char == "porter"
+
+    characterImg = $('<img>').attr('src', "/assets/characters/#{char}.png")
+    characterImg.addClass('cast-character')
+    $(@el).append(img)
+    $(@el).append(characterImg)
     @
 
   splat: =>
