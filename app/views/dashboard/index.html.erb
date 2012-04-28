@@ -1,6 +1,7 @@
 <div id="feed"></div>
 <div id="cast"></div>
 <div id="audience"></div>
+<button type="button" id="go-button">Start</button>
 
 <script>
   var Shake = window.Shake || {};
@@ -9,10 +10,17 @@
   var server = new Shake.Server();
   server.init();
 
+  $('#go-button').click(function() {
+    server.startGame();
+  });
+
   var feed     = new Shake.ServerViews.Feed({
     el: $('#feed')
   }).render();
-  var cast     = new Shake.ServerViews.Cast({el: $('#cast')}).render();
+  var cast     = new Shake.ServerViews.Cast({
+    el: $('#cast'),
+    players: Shake.Game.Players
+  }).render();
   var audience = new Shake.ServerViews.Audience({
     el: $('#audience'),
     players: Shake.Game.Players
