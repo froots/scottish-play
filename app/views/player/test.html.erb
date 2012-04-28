@@ -5,9 +5,7 @@ var vent = Shake.getVent();
 
 vent.bind('pusher:subscription_succeeded', function() {
 	_.each(handles, function(handle, index) {
-		setTimeout(function() {
-      vent.trigger('client-player:register', {user_id: handle});
-		}, 200 * index);
+    vent.trigger('client-player:register', {user_id: handle});
 	});
 	vent.bind('client-player:deliver', function(data) {
 		console.log(data.user_id, 'speaking', data.lines);
@@ -17,7 +15,7 @@ vent.bind('pusher:subscription_succeeded', function() {
 
 		setTimeout(function() {
 			vent.trigger('client-player:exunt', {});
-		}, 1000);
+		}, 2000);
 	});
 });
 </script>

@@ -16,7 +16,6 @@ class AudienceMember extends Backbone.View
     if obj == 'flowers'
       @$('.flowers').animate animateAttrs, 400, (-> $(this).css({width: 0, right: 10, bottom: 10}))
 
-
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl())
     tomato = $('<img>').addClass('tomato').attr('src', '/assets/tomato.png')

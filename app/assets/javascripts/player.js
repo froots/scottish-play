@@ -3,42 +3,62 @@
     initialize: function() {
       this.views = {};
       this.models = {};
+      this.models.player = new Player();
       this.on('login', this.showSortingView, this);
     },
 
     showSortingView: function() {
       var vent = Shake.getVent();
-      this.views.sortingView = new SortingView();
-      this.views.sortingView.render().$el.appendTo(this.$el);
+      this.views.sorting = new SortingView();
+      this.views.sorting.render().$el.appendTo(this.$el);
       
       // use below to save player details to model
-      vent.bind('pusher:subscription_succeeded', this.onRegister, this);
+      vent.bind('pusher:subscription_succeeded', $.proxy(this.onRegister, this));
     },
 
     onRegister: function() {
       var vent = Shake.Vent,
-          name = vent.members.me.info.name;
+          name = vent.members.me.info.name,
+          player = this.models.player;
 
-      vent.trigger("client-player:register", name);
-      vent.bind("client-player:assignRole", function(data) {
-        if (data.user_id === name) {
-          msg = "You are in the "+data.role;
-          if (data.character) {
-            msg += ", playing the part of "+data.character;
-          }
-          alert(msg);
+      player.set({ name: name });
+
+      vent.trigger("client-player:register", { user_id: name });
+      this.assignRoleProxy = $.proxy(this.onAssignRole, this);
+      vent.bind("client-player:assignRole", this.assignRoleProxy);
+    },
+
+    onAssignRole: function(data) {
+      var vent = Shake.Vent,
+          player = this.models.player;
+      if (data.user_id === player.get('name')) {
+        player.set({ role: data.role });
+        this.views.sorting.$el.hide();
+        if (data.character && !('characterView' in this.views)) {
+          player.set({ character: data.character });
+          this.views.characterView = new CharacterView({
+            model: player
+          });
+          this.views.characterView.render().$el.appendTo(this.$el);
+          this.onGameStartProxy = $.proxy(this.onGameStart, this);
+        } else if (!('audienceView' in this.views)) {
+          this.views.audienceView = new AudienceView({
+            model: player
+          });
+          this.views.audienceView.render().$el.appendTo(this.$el);
         }
-      });
+      }
     }
   }),
 
-  Router = Backbone.Router.extend({ 
+  Router = Backbone.Router.extend({
     routes: {
       "": "index"
     },
 
     index: function() {
-      app.views.enterView = new EnterView().render().$el.appendTo(app.$el);
+      app.views.enterView = new EnterView();
+      app.views.enterView.render().$el.appendTo(app.$el);
     }
   }),
 
@@ -49,10 +69,10 @@
   // Views
   EnterView = Backbone.View.extend({
     initialize: function() {
-      this.tmpl = _.template($('#tmpl-enter').html());
+      this.tmpl = JST['templates/enter'];
     },
 
-    events: { 
+    events: {
       'submit form': 'onSubmit'
     },
 
@@ -69,8 +89,8 @@
     saveUser: function(screenName) {
       var view = this;
       $.ajax({
-        url: "/pusher/login", 
-        data: { user_id: screenName }, 
+        url: "/pusher/login",
+        data: { user_id: screenName },
         dataType: 'text',
         success: function() {
           app.models.player = new Player({ screenName: screenName });
@@ -89,12 +109,85 @@
     className: 'sorting',
 
     initialize: function() {
-      this.tmpl = _.template($('#tmpl-sorting').html());
+      this.tmpl = JST['templates/sorting'];
     },
 
     render: function() {
       this.$el.html(this.tmpl());
       return this;
+    }
+  }),
+
+  CharacterView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'character',
+
+    initialize: function() {
+      this.tmpl = JST['templates/character'];
+    },
+
+    render: function() {
+      this.$el.html(this.tmpl(this.model.toJSON()));
+      return this;
+    }
+  }),
+
+  AudienceView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'audience',
+
+    initialize: function() {
+      var vent = Shake.Vent;
+      _.bindAll(this, "onSceneStart", "onSceneEnd");
+      this.tmpl = JST['templates/audience'];
+      this.vegHurled = 0;
+      this.flowersHurled = 0;
+      vent.bind("client-scene:start", this.onSceneStart);
+      vent.bind("client-scene:end", this.onSceneEnd);
+    },
+
+    events: {
+      'click .tomato': 'throwTomato',
+      'click .flowers': 'throwFlowers'
+    },
+
+    render: function() {
+      this.$el.html(this.tmpl(this.model.toJSON()));
+      this.$waiting = this.$('.waiting');
+      this.$vote = this.$('.vote');
+      this.$end = this.$('.end');
+      return this;
+    },
+
+    onSceneStart: function() {
+      this.$waiting.hide();
+      this.$end.hide();
+      this.$vote.show();
+    },
+
+    throwTomato: function(ev) {
+      this.throwObject('veg');
+      this.vegHurled++;
+    },
+
+    throwFlowers: function() {
+      this.throwObject('flowers');
+      this.flowersHurled++;
+    },
+
+    throwObject: function(obj) {
+      Shake.Vent.trigger("client-player:hurl", {
+        user_id: this.model.get('name'),
+        object: obj
+      });
+    },
+
+    onSceneEnd: function() {
+      this.$end.find('.veg-count').text(this.vegHurled);
+      this.$end.find('.flowers-count').text(this.flowersHurled);
+      this.$end.show();
+      this.$waiting.hide();
+      this.$vote.hide();
     }
   }),
 
