@@ -43,7 +43,8 @@ Game.Characters = new Characters
 Game.Scene = {}
 Game.Players = new Players
 
-Game.registerPlayer = (user_id) ->
+Game.registerPlayer = (data) ->
+  user_id = data.user_id
   player = new Player({user_id})
   
   freeCharacters = Game.Characters.withoutActors()

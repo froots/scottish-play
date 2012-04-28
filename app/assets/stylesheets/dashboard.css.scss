@@ -1,17 +1,17 @@
-//Dashboard current player
-.dpl {
-  .dpl-character {
+
+
+#audience {
+  .audience-member {
     position: relative;
-  }
-  .dpl-actor {
-    position: absolute;
-    top: 110px;
-    left: 190px;
-    img {
-      width: 100px;
-      height: 100px;
-      -webkit-border-radius: 100px;
-      border-radius: 100px;
+    .tomato, .flowers {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 0;
     }
   }
+
+
+
+
 }

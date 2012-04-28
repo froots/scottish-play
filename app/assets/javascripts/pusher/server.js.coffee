@@ -15,8 +15,8 @@ class window.Shake.Server
       vent.bind 'client-player:exunt', @onNextPlayer
       vent.bind 'client-player:hurl', @onHurl
 
-  onRegister: (user_id) =>
-    Shake.Game.registerPlayer user_id
+  onRegister: (data) =>
+    Shake.Game.registerPlayer {user_id: data.user_id}
 
   startGame: ->
     vent.trigger('client-scene:start', 'starting')
