@@ -18,14 +18,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 90%;
     box-sizing: border-box;
     padding: 20px;
   }
 
 
-  background: #ddddff;
-  height: 400px;
+  background-image: url(/assets/backdrop.png);
+  height: 468px;
+  width: 800px;
   position: relative;
   #cast {
     position: absolute;
@@ -83,6 +83,7 @@
 }
 
 #theatre {
+  width: 800px;
   margin-right: 320px;
 }
 #feed {
