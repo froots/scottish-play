@@ -1,0 +1,18 @@
+<script>
+var handles = ["duichmckay", "ellieharrison", "jimwolffman", "jendavies", "wildcatdesigns", "AndyYoungDesign", "craigstevenson"];
+
+var vent = Shake.getVent();
+
+vent.bind('pusher:subscription_succeeded', function() {
+	_.each(handles, function(handle, index) {
+		setTimeout(function() {
+			vent.trigger('client-player:register', handle);
+		}, 200 * index);
+	});
+	vent.bind('client-player:deliver', function(data) {
+		console.log(data.user_id, 'speaking', data.lines);
+		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), object: 'abuse'});
+		vent.trigger('client-player:exunt', {});
+	});
+});
+</script>

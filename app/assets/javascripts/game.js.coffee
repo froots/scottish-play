@@ -55,5 +55,18 @@ Game.registerPlayer = (user_id) ->
     player.assignRole('audience')
   Game.Players.add player
 
+Game.loadNextParagraph = ->
+  Game.currentParagraph = Game.Scene.paragraphs.pop()
+  
+  if Game.currentParagraph == null || _.isUndefined Game.currentParagraph
+    return false
+
+  while Game.currentParagraph.character_id == null
+    Game.currentParagraph = Game.Scene.paragraphs.pop()
+
+  Game.currentParagraph != null
+
+Game.getCurrentCharacter = ->
+  Game.Characters.get Shake.Game.currentParagraph.character_id
 
 window.Shake.Game = Game

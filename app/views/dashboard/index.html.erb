@@ -1,16 +1,21 @@
-<div class='dpl'>
-  <div class='dpl-character'>
-    <img src="http://www.jssgallery.org/Paintings/Ellen_Terry_a.jpg">
-    <div class='dpl-actor'></div>
-  </div>
-</div>
-
-
+<div id="feed"></div>
+<div id="cast"></div>
+<div id="audience"></div>
 
 <script>
-var Shake = window.Shake || {};
-Shake.Game.Characters.add(<%= @characters.to_json.html_safe %>);
-Shake.Game.Scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
-var server = new Shake.Server();
-server.init();
+  var Shake = window.Shake || {};
+  Shake.Game.Characters.add(<%= @characters.to_json.html_safe %>);
+  Shake.Game.Scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
+  var server = new Shake.Server();
+  server.init();
+
+  var feed     = new Shake.ServerViews.Feed({
+    el: $('#feed')
+  }).render();
+  var cast     = new Shake.ServerViews.Cast({el: $('#cast')}).render();
+  var audience = new Shake.ServerViews.Audience({
+    el: $('#audience'),
+    players: Shake.Game.Players
+  }).render();
+
 </script>

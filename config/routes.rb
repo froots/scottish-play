@@ -2,6 +2,7 @@ ScottishPlay::Application.routes.draw do
   get "dashboard" => "dashboard#index"
 
   get "player/index"
+  get "player/test"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
