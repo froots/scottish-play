@@ -58,6 +58,9 @@ Game.registerPlayer = (user_id) ->
 Game.loadNextParagraph = ->
   Game.currentParagraph = Game.Scene.paragraphs.pop()
   
+  if Game.currentParagraph == null || _.isUndefined Game.currentParagraph
+    return false
+
   while Game.currentParagraph.character_id == null
     Game.currentParagraph = Game.Scene.paragraphs.pop()
 
