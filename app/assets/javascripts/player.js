@@ -1,3 +1,5 @@
+var assigned = false;
+
 (function() {
   var App = Backbone.View.extend({
     initialize: function() {
@@ -30,9 +32,8 @@
 
     onAssignRole: function(data) {
       var vent = Shake.Vent,
-          player = this.models.player,
-          assigned = false;
-      if (data.user_id === player.get('name')) {
+          player = this.models.player;
+      if (data.user_id === player.get('name') && !assigned) {
         assigned = true;
         player.set({ role: data.role });
         this.views.sorting.$el.hide();
@@ -217,7 +218,7 @@
       this.tmpl = JST['templates/audience'];
       this.vegHurled = 0;
       this.flowersHurled = 0;
-      vent.bind("client-scene:start", this.onSceneStart);
+      vent.bind("client-player:deliver", this.onSceneStart);
       vent.bind("client-scene:end", this.onSceneEnd);
     },
 
@@ -235,6 +236,7 @@
     },
 
     onSceneStart: function() {
+      Shake.Vent.unbind("client-player:deliver", this.onSceneStart);
       this.$waiting.hide();
       this.$end.hide();
       this.$vote.show();
