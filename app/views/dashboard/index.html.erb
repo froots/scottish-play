@@ -15,8 +15,12 @@
 
 <script>
   var Shake = window.Shake || {};
+  var Data = window.Data || {};
+
   Shake.Game.Characters.add(<%= @characters.to_json.html_safe %>);
-  Shake.Game.Paragraphs = <%= @paragraphs.to_json(:include => :lines).html_safe %>;
+  window.Data.Paragraphs = <%= @paragraphs.to_json(:include => :lines).html_safe %>;
+  
+  Shake.Game.Paragraphs = _.clone(window.Data.Paragraphs);
   var server = new Shake.Server();
   server.init();
 
