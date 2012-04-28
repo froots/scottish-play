@@ -1,0 +1,17 @@
+<script>
+var handles = ["@duichmckay", "@ellieharrison", "@jimwolffman", "@jendavies", "@wildcatdesigns", "@AndyYoungDesign", "@craigstevenson", "@raylupton", "@suchprettyeyes", "@strangesparks", "@royshearer", "@ToadsCaravan", "@michaelshorter", "@Awfy", "@offfbrand", "@TheJyc", "@beata_zemanek", "@tommetcalfe", "@DanneeRoy", "@Colin_WT", "@commun_i_tea", "@probablyrory", "@MrJamesVale", "@fergusb", "@DcMcM", "@dkdo", "@pau1_m", "@robstewartUK", "@johnjpeebles", "@macleodan", "@xdesign365", "@nickbabenko", "@nevali", "@coldclimate", "@rufflemuffin", "@bedroomation", "@ginost7", "@CarolSoutar", "@rwillmer", "@_MDHayes", "@galvanist", "@jack_chalkley", "@stef", "@k_macquarrie", "@digitalWestie", "@christopherdb", "@danfrydman", "@philip_roberts", "@jonzo1", "@amazingrolo", "@enru", "@MariusCiocanel", "@froots101", "@sherred", "@colin_gemmell", "@roryf", "@kateho", "@brunopanara", "@tarasyoung", "@KevinBrolly", "@aaronbassett", "@jarofgreen", "@justinq", "@alistair", "@moggy"];
+
+var vent = Shake.getVent();
+
+vent.bind('pusher:subscription_succeeded', function() {
+	_.each(handles, function(handle, index) {
+		setTimeout(function() {
+			vent.trigger('client-player:register', handle);
+		}, 200 * index);
+	});
+	vent.bind('client-player:delivery', function() {
+		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), 'abuse'});
+		vent.trigger('client-player:exunt', {});
+	});
+});
+</script>

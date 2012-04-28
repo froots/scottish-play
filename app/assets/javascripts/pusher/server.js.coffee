@@ -1,4 +1,6 @@
 class window.Shake.Server
+  vent = null
+  
   init: ->
     vent = Shake.getVent()
 
@@ -12,3 +14,9 @@ class window.Shake.Server
 
   onRegister: (user_id) =>
     Shake.Game.registerPlayer user_id
+
+  startGame: ->
+    vent.trigger('client-scene:start', 'starting')
+    Shake.Game.loadNextParagraph()
+    character = Shake.Game.getCurrentCharacter()
+    vent.trigger('client-player:deliver', { user_id: character.get('actor'), lines: Shake.Game.currentParagraph.lines })
