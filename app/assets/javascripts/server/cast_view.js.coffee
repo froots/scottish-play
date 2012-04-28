@@ -41,12 +41,12 @@ class CastMember extends Backbone.View
   	Shake.Sounds.playSound 'fart'
 
   flowers: =>
-  	noFlowers = @$el.find('.flower').length
-  	left = 20 * (noFlowers % 4)
-  	if (left > @dimensions.width)
-  	  left = 0
-  	top = 23 * Math.floor(noFlowers / 4)
-  	@$el.append $('<img class="decoration flower" src="/assets/flowers.png" />').css({left: left, top: top})
+    noFlowers = @$el.find('.flower').length
+    left = 20 * (noFlowers % 4)
+    if (left > @dimensions.width)
+      left = 0
+    top = 23 * Math.floor(noFlowers / 4)
+    @$el.append $('<img class="decoration flower" src="/assets/flowers.png" />').css({left: left, top: top})
     Shake.Sounds.playSound 'pop'
 
 class Shake.ServerViews.Cast extends Backbone.View
