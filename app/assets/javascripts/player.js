@@ -16,8 +16,19 @@
     },
 
     onRegister: function() {
-      var vent = Shake.Vent;
-      vent.trigger("client-player:register", vent.members.me.info.name);
+      var vent = Shake.Vent,
+          name = vent.members.me.info.name;
+
+      vent.trigger("client-player:register", name);
+      vent.bind("client-player:assignRole", function(data) {
+        if (data.user_id === name) {
+          msg = "You are in the "+data.role;
+          if (data.character) {
+            msg += ", playing the part of "+data.character;
+          }
+          alert(msg);
+        }
+      });
     }
   }),
 

@@ -1,6 +1,15 @@
 class window.Shake.Server
   init: ->
     vent = Shake.getVent()
-    vent.bind 'pusher:subscription_succeeded', ->
-      vent.bind 'client-player:register', (user_id) ->
-        Shake.Game.players.push user_id
+
+    game = Shake.Game
+
+    game.Players.bind 'add', (player) ->
+      console.log 'foo'
+      $('body').append $('<img>').attr('src', player.twitterAvatarUrl())
+
+    vent.bind 'pusher:subscription_succeeded', =>
+      vent.bind 'client-player:register', @onRegister
+
+  onRegister: (user_id) =>
+    Shake.Game.registerPlayer user_id
