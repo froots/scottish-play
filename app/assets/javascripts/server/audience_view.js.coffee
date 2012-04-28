@@ -33,7 +33,7 @@ class Shake.ServerViews.Audience extends Backbone.View
         @addOne(player)
     
   render: =>
-    $(@el).append $('<h1>').text('audience')
+    @
 
   addOne: (player) =>
     playerView = new AudienceMember(model: player)

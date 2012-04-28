@@ -1,7 +1,50 @@
 
 
+
+
+#audience {
+  background: #333366;
+  height: 400px;
+}
+
+
+#stage {
+  padding: 1px;
+  #speech-bubble {
+    background-color: white;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+
+  background: #ddddff;
+  height: 400px;
+  position: relative;
+  #cast {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    .cast-member { 
+      display: inline-block;
+      margin: 20px;
+      position: relative;
+    }
+  }
+}
+
 #audience {
   .audience-member {
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
     position: relative;
     .tomato, .flowers {
       position: absolute;
@@ -12,7 +55,17 @@
   }
 }
 
+#go-button { 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#theatre {
+  margin-right: 320px;
+}
 #feed {
+  background-color: brown;
   height: 100%;
   width: 300px;
   position: absolute;
