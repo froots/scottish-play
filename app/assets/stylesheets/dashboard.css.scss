@@ -98,11 +98,15 @@ body {
   width: 800px;
   margin-right: 320px;
 }
+
 #feed {
-  background-color: brown;
+  background-color: #F6F2D7;
+  font-size: 150%;
   height: 100%;
-  width: 300px;
+  width: 440px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
