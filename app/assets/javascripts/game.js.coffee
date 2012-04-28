@@ -63,6 +63,7 @@ Game.registerPlayer = (data) ->
   player = new Player({user_id})
   
   freeCharacters = Game.Characters.withoutActors()
+  console.log freeCharacters
   if _.any(freeCharacters)
     character = freeCharacters.pop()
     character.set({actor: user_id})
@@ -78,7 +79,7 @@ Game.loadNextParagraph = ->
     return false
 
   while Game.currentParagraph.character_id == null
-    Game.currentParagraph = Game.Scene.paragraphs.pop()
+    Game.currentParagraph = Game.Scene.Paragraphs.pop()
 
   Game.currentParagraph != null
 

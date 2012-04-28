@@ -7,7 +7,9 @@ class CastMember extends Backbone.View
   initialize: ->
     Shake.Game.Players.bind 'deliver', (data) =>
       if data.user_id == @options.model.get('user_id')
-        @animate()
+        @animate('activate')
+      else
+        @animate('restore')
 
     Shake.Game.Players.bind 'veg', (data) =>
       if data.user_id == @options.model.get('user_id')
@@ -17,9 +19,14 @@ class CastMember extends Backbone.View
       if data.user_id == @options.model.get('user_id')
         @flowers()
 
-  animate: =>
+  animate: (state) =>
     width = @$('img').width()
-    @$el.animate {width: 150, 100}, -> $(this).animate({width: width, 200})
+    animateState = {bottom: 20}
+    defaultState = {bottom: 0}
+    if state == 'activate'
+      $(@el).css animateState
+    else
+      $(@el).css defaultState
 
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl()).addClass('avatar').bind 'load', =>
