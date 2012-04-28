@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- PLAY -->
+  <xs:element name="Play">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="1" ref="Act"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- ACT -->
+  <xs:element name="Act">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Scene"/>
+      </xs:sequence>
+      <!-- Act number can be translated into a Roman numeral as necessary. -->
+      <xs:attribute name="number" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- SCENE -->
+  <xs:element name="Scene">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Paragraphs"/>
+      </xs:sequence>
+      <!-- Scene number is usually an Arabic number. -->
+      <xs:attribute name="number" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- PARAGRAPHS -->
+  <xs:element name="Paragraphs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ParagraphType"/>
+        <xs:element ref="WorkID"/>
+        <xs:element ref="Section"/>
+        <xs:element ref="PlainText"/>
+        <xs:element ref="PhoneticText"/>
+        <xs:element ref="WordCount"/>
+        <xs:element ref="CharCount"/>
+        <xs:element ref="Chapter"/>
+        <xs:element ref="StemText"/>
+        <xs:element ref="ParagraphID"/>
+        <xs:element ref="ParagraphNum"/>
+        <xs:element ref="CharID"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ParagraphType" type="xs:NCName"/>
+  <xs:element name="WorkID" type="xs:NCName"/>
+  <xs:element name="Section" type="xs:integer"/>
+  <xs:element name="PlainText">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Line"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- The text of a line -->
+  <xs:element name="Line">
+    <xs:complexType mixed="true">
+      <xs:attribute name="number" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PhoneticText" type="xs:string"/>
+  <xs:element name="WordCount" type="xs:integer"/>
+  <xs:element name="CharCount" type="xs:integer"/>
+  <xs:element name="Chapter" type="xs:integer"/>
+  <xs:element name="StemText" type="xs:string"/>
+  <xs:element name="ParagraphID" type="xs:integer"/>
+  <xs:element name="ParagraphNum" type="xs:integer"/>
+  <!-- The CharID can be cross-referenced with Characters.xml -->
+  <xs:element name="CharID" type="xs:NMTOKEN"/>
+</xs:schema>

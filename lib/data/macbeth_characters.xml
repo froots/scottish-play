@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Play xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:schemaLocation="Characters.xsd"
+      name="macbeth">
+
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>First Apparition</CharName>
+    <SpeechCount>1</SpeechCount>
+    <Abbrev>First Apparition</Abbrev>
+    <Description/>
+    <CharID>1apparition-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>First Murderer</CharName>
+    <SpeechCount>21</SpeechCount>
+    <Abbrev>First Murderer</Abbrev>
+    <Description/>
+    <CharID>1murderer</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>First Witch</CharName>
+    <SpeechCount>23</SpeechCount>
+    <Abbrev>First Witch</Abbrev>
+    <Description/>
+    <CharID>1witch-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Second Apparition</CharName>
+    <SpeechCount>2</SpeechCount>
+    <Abbrev>Second Apparition</Abbrev>
+    <Description/>
+    <CharID>2apparition-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Second Murderer</CharName>
+    <SpeechCount>6</SpeechCount>
+    <Abbrev>Second Murderer</Abbrev>
+    <Description/>
+    <CharID>2murderer</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Second Witch</CharName>
+    <SpeechCount>15</SpeechCount>
+    <Abbrev>Second Witch</Abbrev>
+    <Description/>
+    <CharID>2witch-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Third Apparition</CharName>
+    <SpeechCount>1</SpeechCount>
+    <Abbrev>Third Apparition</Abbrev>
+    <Description/>
+    <CharID>3apparition-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Third Murderer</CharName>
+    <SpeechCount>6</SpeechCount>
+    <Abbrev>Third Murderer</Abbrev>
+    <Description/>
+    <CharID>3murderer</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Third Witch</CharName>
+    <SpeechCount>13</SpeechCount>
+    <Abbrev>Third Witch</Abbrev>
+    <Description/>
+    <CharID>3witch-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>All</CharName>
+    <SpeechCount>13</SpeechCount>
+    <Abbrev>ALL</Abbrev>
+    <Description/>
+    <CharID>all-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Angus</CharName>
+    <SpeechCount>4</SpeechCount>
+    <Abbrev>ANGUS</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>angus</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Attendant</CharName>
+    <SpeechCount>1</SpeechCount>
+    <Abbrev>ATTENDANT</Abbrev>
+    <Description/>
+    <CharID>attendant-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Banquo</CharName>
+    <SpeechCount>33</SpeechCount>
+    <Abbrev>BANQUO</Abbrev>
+    <Description>General of the King's army</Description>
+    <CharID>banquo</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Caithness</CharName>
+    <SpeechCount>3</SpeechCount>
+    <Abbrev>CAITHNESS</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>caithness</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Doctor</CharName>
+    <SpeechCount>20</SpeechCount>
+    <Abbrev>Doctor</Abbrev>
+    <Description/>
+    <CharID>doctor-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Donalbain</CharName>
+    <SpeechCount>3</SpeechCount>
+    <Abbrev>DONALBAIN</Abbrev>
+    <Description>Son of Duncan</Description>
+    <CharID>donalbain</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Duncan</CharName>
+    <SpeechCount>18</SpeechCount>
+    <Abbrev>DUNCAN</Abbrev>
+    <Description>King of Scotland</Description>
+    <CharID>duncan</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Fleance</CharName>
+    <SpeechCount>2</SpeechCount>
+    <Abbrev>FLEANCE</Abbrev>
+    <Description>Son to Banquo</Description>
+    <CharID>fleance</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Gentlewoman</CharName>
+    <SpeechCount>11</SpeechCount>
+    <Abbrev>Gentlewoman</Abbrev>
+    <Description/>
+    <CharID>gentlewoman-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Hecate</CharName>
+    <SpeechCount>2</SpeechCount>
+    <Abbrev>HECATE</Abbrev>
+    <Description/>
+    <CharID>hecate</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Lady Macbeth</CharName>
+    <SpeechCount>59</SpeechCount>
+    <Abbrev>LADY MACBETH</Abbrev>
+    <Description/>
+    <CharID>ladymacbeth</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Lady Macduff</CharName>
+    <SpeechCount>19</SpeechCount>
+    <Abbrev>LADY MACDUFF</Abbrev>
+    <Description/>
+    <CharID>ladymacduff</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Lennox</CharName>
+    <SpeechCount>21</SpeechCount>
+    <Abbrev>LENNOX</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>lennox</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Lord</CharName>
+    <SpeechCount>3</SpeechCount>
+    <Abbrev>Lord</Abbrev>
+    <Description/>
+    <CharID>lord-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Lords</CharName>
+    <SpeechCount>3</SpeechCount>
+    <Abbrev>Lords</Abbrev>
+    <Description/>
+    <CharID>lords-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Macbeth</CharName>
+    <SpeechCount>146</SpeechCount>
+    <Abbrev>MACBETH</Abbrev>
+    <Description>General of the King's army</Description>
+    <CharID>macbeth</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Macduff</CharName>
+    <SpeechCount>59</SpeechCount>
+    <Abbrev>MACDUFF</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>macduff</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Malcolm</CharName>
+    <SpeechCount>40</SpeechCount>
+    <Abbrev>MALCOLM</Abbrev>
+    <Description>Son of Duncan</Description>
+    <CharID>malcolm</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Menteith</CharName>
+    <SpeechCount>5</SpeechCount>
+    <Abbrev>MENTEITH</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>menteith</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Messenger</CharName>
+    <SpeechCount>6</SpeechCount>
+    <Abbrev>Messenger</Abbrev>
+    <Description/>
+    <CharID>messenger-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Old Man</CharName>
+    <SpeechCount>4</SpeechCount>
+    <Abbrev>Old Man</Abbrev>
+    <Description/>
+    <CharID>oldman-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Porter</CharName>
+    <SpeechCount>4</SpeechCount>
+    <Abbrev>Porter</Abbrev>
+    <Description/>
+    <CharID>porter-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Ross</CharName>
+    <SpeechCount>39</SpeechCount>
+    <Abbrev>ROSS</Abbrev>
+    <Description>Nobleman of Scotland</Description>
+    <CharID>ross</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Sergeant</CharName>
+    <SpeechCount>3</SpeechCount>
+    <Abbrev>Sergeant</Abbrev>
+    <Description/>
+    <CharID>sergeant-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Servant</CharName>
+    <SpeechCount>5</SpeechCount>
+    <Abbrev>Servant</Abbrev>
+    <Description/>
+    <CharID>servant-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Seyton</CharName>
+    <SpeechCount>5</SpeechCount>
+    <Abbrev>SEYTON</Abbrev>
+    <Description>An officer attending on Macduff</Description>
+    <CharID>seyton</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Siward</CharName>
+    <SpeechCount>11</SpeechCount>
+    <Abbrev>SIWARD</Abbrev>
+    <Description>Earl of Northumberland, general of English forces</Description>
+    <CharID>siward</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Soldiers</CharName>
+    <SpeechCount>1</SpeechCount>
+    <Abbrev>Soldiers</Abbrev>
+    <Description/>
+    <CharID>soldiers-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Son</CharName>
+    <SpeechCount>14</SpeechCount>
+    <Abbrev>Son</Abbrev>
+    <Description>Macduff's son</Description>
+    <CharID>son-mac</CharID>
+  </Characters>
+  <Characters>
+    <Works>macbeth</Works>
+    <CharName>Young Siward</CharName>
+    <SpeechCount>4</SpeechCount>
+    <Abbrev>YOUNG SIWARD</Abbrev>
+    <Description>Siward's son</Description>
+    <CharID>youngsiward</CharID>
+  </Characters>
+  
+</Play>
+

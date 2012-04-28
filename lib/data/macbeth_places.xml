@@ -1,0 +1,437 @@
+<elements><placenames><placename contained-by="rb364" id="rb1" name="Macbeth">
+  <place gazetteer="GeoNames" gazref="unlock:8437298" lat="42.6899946" locality="0" long="-101.6932102" name="MacBeth Ranch" rank="1" score="2.833220088" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7328999" lat="34.664856" locality="0" long="-81.6892684" name="Macbeth Church (historical)" rank="2" score="0.3554389783" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7328998" lat="33.2676686" locality="0" long="-79.9748017" name="Macbeth" rank="3" score="0.305773778" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7329000" lat="32.8668415" locality="0" long="-80.06314639999999" name="Macbeth Creek" rank="4" score="0.2706033979" type="other" />
+ </placename>
+ <placename id="rb2" name="LENNOX">
+  <place gazetteer="GeoNames" gazref="unlock:8106127" in-cc="US" lat="33.9380695" locality="0" long="-118.3525752" name="Lennox" pop="23387" rank="1" score="0.7378699352" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10861715" in-cc="US" lat="33.93814" locality="0" long="-118.35861" name="Lennox" pop="23387" rank="2" score="0.7378229314" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7110137" lat="39.1764965" locality="0" long="-76.75163790000001" name="Lennox Park" rank="3" score="0.6953305713" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7110147" lat="39.1726077" locality="0" long="-76.7441376" name="Lennox Park" rank="4" score="0.6951960242" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11194037" lat="55.89358805383876" locality="0" long="-3.319346676777789" name="Lennox Tower" rank="5" score="0.6351370497" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10747925" lat="39.8296" locality="0" long="-75.41240000000001" name="Lennox Park Mobile Home Park" rank="6" score="0.4775340158" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7217605" lat="35.9148666" locality="0" long="-79.0266771" name="Glen Lennox" rank="7" score="0.4416383781" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8476337" lat="42.3204015" locality="0" long="-123.0436564" name="Lennox Gulch" rank="8" score="0.4281983086" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8540641" lat="47.6631614" locality="0" long="-121.5859381" name="Lennox Creek" rank="9" score="0.3747036193" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8540654" lat="47.6328866" locality="0" long="-121.4784323" name="Lennox Lake" rank="10" score="0.3741961478" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8540644" lat="47.66789" locality="0" long="-121.4726" name="Lennox Mountain" rank="11" score="0.3726287322" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8168481" lat="38.9027657" locality="0" long="-107.5420009" name="Lennox Mesa" rank="12" score="0.3548437023" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7969545" lat="43.3527588" locality="0" long="-96.89671730000001" name="City of Lennox" rank="13" score="0.3464129903" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7969542" lat="43.3541476" locality="0" long="-96.8919951" name="Lennox" rank="14" score="0.3461454079" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7144499" lat="36.5228487" locality="0" long="-93.9838125" name="Lennox Mountain" rank="15" score="0.332170538" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8000012" lat="45.5119058" locality="0" long="-89.0717835" name="Lennox" rank="16" score="0.2663832237" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6206938" lat="18.21667" locality="0" long="-76.59999999999999" name="Lennox" rank="17" score="0.2336379327" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8041987" lat="35.3361199" locality="0" long="-111.5926593" name="Lennox Tank" rank="18" score="0.2311351" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7775139" lat="46.2435781" locality="0" long="-94.34305790000001" name="Lennox" rank="19" score="0.2189980282" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5457742" lat="-55.2666667" locality="0" long="-66.95" name="Isla Lennox" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb7" name="Scotland">
+  <place gazref="geonames:2638360" in-cc="GB" lat="56.0000000" locality="0" long="-4.0000000" name="Scotland" pop="5000000" rank="1" score="2.449954919" type="civila" />
+  <place gazetteer="GeoNames" gazref="unlock:6889478" lat="38.8873341" locality="0" long="-77.05553279999999" name="New Scotland Hundred (historical)" rank="2" score="0.65190883" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7691380" lat="42.7764787" locality="0" long="-71.1522811" name="Scotland Hill" rank="3" score="0.6275624775" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7691381" lat="42.5153725" locality="0" long="-71.1144984" name="Scotland Hill" rank="4" score="0.5731913678" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7868943" lat="42.6286895" locality="0" long="-73.9134588" name="New Scotland" rank="5" score="0.5513575092" type="other" />
+  <place gazetteer="Boundary-Line" gazref="unlock:5905" lat="57.68661067171578" locality="0" long="-4.967503410176092" name="Scotland Euro Region" rank="6" score="0.543627044" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7240121" lat="34.83349" locality="0" long="-79.49977" name="Scotland County" rank="7" score="0.4659973265" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7951557" lat="40.4350792" locality="0" long="-77.5561012" name="Scotland" rank="8" score="0.4517579343" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7972007" lat="43.1480486" locality="0" long="-97.7197891" name="City of Scotland" rank="9" score="0.3847351806" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7972004" lat="43.1497151" locality="0" long="-97.71756689999999" name="Scotland" rank="10" score="0.384614763" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7240126" lat="36.1668224" locality="0" long="-77.39969170000001" name="Scotland Neck Airport" rank="11" score="0.3590835653" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6880014" lat="33.05264" locality="0" long="-92.7496" name="Scotland" rank="12" score="0.3274871693" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7157471" lat="37.0831162" locality="0" long="-94.3771668" name="Scotland" rank="13" score="0.3206495065" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7797611" lat="40.4500344" locality="0" long="-92.1501806" name="Scotland County" rank="14" score="0.2964058395" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8134105" lat="34.242229" locality="0" long="-117.4981066" name="Scotland" rank="15" score="0.27170137" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10770887" lat="32.04716" locality="0" long="-82.81829" name="City of Scotland" rank="16" score="0.2576289145" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10774486" lat="33.64836" locality="0" long="-98.46944999999999" name="City of Scotland" rank="17" score="0.2372868193" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7470304" lat="33.6601031" locality="0" long="-98.4706085" name="Scotland" rank="18" score="0.2370142284" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5117645" lat="17.5666667" locality="0" long="-88.5166667" name="Scotland" rank="19" score="0.03560295243" type="other" />
+ <place gazetteer="GeoNames" gazref="unlock:5002409" lat="13.2166667" locality="0" long="-59.6333333" name="Scotland District" rank="20" score="0" type="other" /></placename>
+ <placename id="rb9" name="Banquo">
+  <place gazetteer="GeoNames" gazref="unlock:7658759" lat="40.6964322" locality="0" long="-85.61969999999999" name="Banquo" rank="1" score="0.4620943732" type="other" />
+ </placename>
+ <placename id="rb10" name="Golgotha">
+  <place gazetteer="GeoNames" gazref="unlock:7634963" lat="41.7725335" locality="0" long="-87.6708843" name="Golgotha School" rank="1" score="0.3969522646" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7634962" lat="41.7722557" locality="0" long="-87.6708843" name="Golgotha Lutheran Church" rank="2" score="0.3969471206" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7634960" lat="41.7361441" locality="0" long="-87.7386635" name="Golgotha Early Childhood Center" rank="3" score="0.3943551939" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7634961" lat="41.7361441" locality="0" long="-87.73894129999999" name="Golgotha Lutheran Church" rank="4" score="0.3943472508" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8535649" lat="45.8556873" locality="0" long="-119.9108682" name="Golgotha Butte" rank="5" score="0.3744112899" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7809576" lat="42.4733366" locality="0" long="-97.6603417" name="Golgotha Church" rank="6" score="0.3688523176" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7599531" lat="42.0288717" locality="0" long="-94.3821908" name="Golgotha Cemetery" rank="7" score="0.3316069749" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11156185" lat="51.19024502037606" locality="0" long="1.241847970259605" name="Golgotha" rank="8" score="0.2912471907" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8429367" lat="47.2700089" locality="0" long="-102.0604504" name="Golgotha Cemetery" rank="9" score="0.2286604963" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4004679" lat="8.4555556" locality="0" long="-13.2036111" name="Golgotha" rank="10" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8602732" lat="61.6597222" locality="0" long="-154.1694444" name="Golgotha" rank="11" score="0" type="other" />
+ </placename>
+ <placename id="rb11" name="ROSS">
+  <place gazetteer="GeoNames" gazref="unlock:8548712" lat="45.6681723" locality="0" long="-122.6437084" name="Ross Complex Heliport" rank="1" score="0.5382066001" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7272396" lat="39.4406181" locality="0" long="-83.0232379" name="Ross County Airport" rank="2" score="0.4533432287" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7272395" lat="39.3500639" locality="0" long="-83.06657180000001" name="Ross County" rank="3" score="0.4501336756" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7272400" lat="39.3653417" locality="0" long="-83.3543588" name="Ross Field" rank="4" score="0.4462348149" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8489360" lat="44.7540188" locality="0" long="-120.4922485" name="Ross Butte" rank="5" score="0.4358170348" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7748609" lat="42.1283728" locality="0" long="-86.42835599999999" name="Ross Field-Twin Cities Airport" rank="6" score="0.413793792" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7874805" lat="43.1195004" locality="0" long="-78.9355961" name="Ross Heliport" rank="7" score="0.3670505188" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8548732" lat="48.7095708" locality="0" long="-121.2448471" name="Mount Ross" rank="8" score="0.2921645768" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11272949" lat="51.91719010340092" locality="0" long="-2.574376315877772" name="Ross-on-Wye" rank="9" score="0.2742129489" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7444482" lat="29.0810781" locality="0" long="-95.38271690000001" name="Joseph Ross Scherdin Airport" rank="10" score="0.2182330109" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8576818" lat="42.5704995" locality="0" long="-109.9084835" name="Ross Butte" rank="11" score="0.2101431173" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8052243" lat="33.4136575" locality="0" long="-111.846252" name="Ross Airport" rank="12" score="0.198393761" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14137447" lat="-49.58135414123535" locality="0" long="69.52155685424805" name="Ross" rank="13" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14137452" lat="-49.57854583125592" locality="0" long="69.51233971445873" name="Grand Ross" rank="14" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4874975" lat="-75" locality="0" long="-175" name="Ross Sea" rank="15" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14121538" lat="-78.14543533325195" locality="0" long="169.2800369262695" name="Ross  Sea" rank="16" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3677080" lat="-49.58333" locality="0" long="69.5" name="Mont Ross" rank="17" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5447158" lat="-55.1833333" locality="0" long="-70.09999999999999" name="Monte Ross" rank="18" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14121681" lat="-78.56558990478516" locality="0" long="-141.0640602111816" name="Ross  Sea" rank="19" score="0" type="other" />
+ </placename>
+ <placename id="rb12" name="Norway">
+  <place cc="NO" gazref="geonames:3144096" in-cc="NO" lat="62.0000000" locality="0" long="10.0000000" name="Norway" pop="4593041" rank="1" score="1.976220761" type="country" />
+  <place gazetteer="GeoNames" gazref="unlock:7830880" lat="42.9711928" locality="0" long="-71.9673025" name="Norway Hill" rank="2" score="0.6371337322" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7830881" lat="43.0706398" locality="0" long="-71.2092292" name="Norway Hill" rank="3" score="0.6212553344" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7714568" lat="44.2564578" locality="0" long="-70.6347852" name="North Norway" rank="4" score="0.5929871321" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8545223" lat="45.6120624" locality="0" long="-122.292591" name="Mount Norway" rank="5" score="0.5483810305" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944195" lat="41.98174" locality="0" long="-76.9658" name="Norway Hill" rank="6" score="0.4830147717" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8483508" lat="43.1009432" locality="0" long="-124.1567713" name="Norway" rank="7" score="0.3732655915" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8483509" lat="43.1026099" locality="0" long="-124.1609381" name="Norway Airstrip" rank="8" score="0.3729603358" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8545220" lat="47.7462095" locality="0" long="-122.2009583" name="Norway Hill" rank="9" score="0.3642909762" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8438042" lat="41.9988866" locality="0" long="-100.7182005" name="Norway" rank="10" score="0.3580004276" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7458408" lat="31.6904366" locality="0" long="-97.6525213" name="Norway Hill" rank="11" score="0.3317425243" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:13922301" lat="41.90222" locality="0" long="-91.92267" name="City of Norway" rank="12" score="0.3010332888" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8292253" lat="38.8246295" locality="0" long="-120.0365724" name="Little Norway" rank="13" score="0.2970363576" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8000661" lat="43.0269408" locality="0" long="-89.7895674" name="Little Norway" rank="14" score="0.2936457599" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7801151" lat="46.1388569" locality="0" long="-98.14565709999999" name="Norway" rank="15" score="0.2656608544" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7744973" lat="45.8024573" locality="0" long="-87.91484800000001" name="City of Norway" rank="16" score="0.2576997333" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6206395" lat="18.2166667" locality="0" long="-77.5666667" name="Norway" rank="17" score="0.231118627" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3752911" lat="20.61667" locality="0" long="107.16667" name="Grande Norway" rank="18" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14123809" lat="13.15369606018066" locality="0" long="12.2620997428894" name="Norway" rank="19" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8610036" lat="61.5908333" locality="0" long="-147.3986111" name="Norway Peak" rank="20" score="0" type="other" />
+ <place gazetteer="Natural Earth" gazref="unlock:14127992" lat="64.57892608642578" locality="0" long="17.86067199707031" name="Norway" rank="21" score="0" type="other" /></placename>
+ <placename id="rb13" name="Cawdor">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11082036" lat="57.53011670902553" locality="0" long="-3.929151878526687" name="Bog of Cawdor" rank="1" score="0.6444570255" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11102052" lat="57.52113825721558" locality="0" long="-3.928677682694122" name="Cawdor" rank="2" score="0.6433562158" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11102053" lat="57.52113825721558" locality="0" long="-3.928677682694122" name="Cawdor Castle" rank="3" score="0.6433562158" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11102054" lat="57.51215979009024" locality="0" long="-3.928203767099687" name="Cawdor Wood" rank="4" score="0.6421504827" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2856200" lat="-18.0333333" locality="0" long="31.05" name="Cawdor" rank="5" score="0" type="other" />
+ </placename>
+ <placename id="rb15" name="Norways">
+  <place gazetteer="GeoNames" gazref="unlock:7714809" lat="45.3094972" locality="0" long="-70.22201080000001" name="The Norways" rank="1" score="0.436619834" type="other" />
+ </placename>
+ <placename id="rb19" name="Aleppo">
+  <place gazref="geonames:170062" in-cc="SY" lat="36.0000000" locality="0" long="37.0000000" name="Aleppo" pop="1602264" rank="1" score="1.640946815" type="civila" />
+  <place gazref="geonames:170063" in-cc="SY" lat="36.2027778" locality="0" long="37.1586111" name="Aleppo" pop="1602264" rank="2" score="1.440946815" type="ppl" />
+  <place gazetteer="GeoNames" gazref="unlock:6761308" in-cc="SY" lat="36.2" locality="0" long="37.1666" name="Sheraton Aleppo Hotel" pop="1602264" rank="3" score="0.840946815" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6761297" in-cc="SY" lat="36.180675" locality="0" long="37.224358" name="Aleppo International Airport" pop="1602264" rank="4" score="0.840946815" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2045315" in-cc="SY" lat="36.20278" locality="0" long="37.15861" name="Aleppo" pop="1602264" rank="5" score="0.840946815" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14128328" in-cc="SY" lat="36.17184829711914" locality="0" long="37.60101699829102" name="Aleppo (Halab)" pop="1602264" rank="6" score="0.840946815" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2045314" in-cc="SY" lat="36" locality="0" long="37" name="Mu&#7721;&#257;faz&#807;at &#7720;alab" pop="1602264" rank="7" score="0.840946815" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14132344" in-cc="SY" lat="36.21807479858398" locality="0" long="37.16262054443359" name="Aleppo" pop="1602264" rank="8" score="0.840946815" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7305714" lat="39.82314" locality="0" long="-80.44562999999999" name="Township of Aleppo" rank="9" score="0.364994448" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7305713" lat="39.82397" locality="0" long="-80.44618" name="Aleppo" rank="10" score="0.364975655" type="other" />
+ <place gazetteer="GeoNames" gazref="unlock:7918320" lat="40.52923" locality="0" long="-80.12367" name="Township of Aleppo" rank="11" score="0.324901446" type="other" /><place gazetteer="GeoNames" gazref="unlock:6208736" lat="18.2333333" locality="0" long="-76.84999999999999" name="Aleppo" rank="12" score="0.2390606605" type="other" /></placename>
+ <placename id="rb25" name="Forres">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11146853" lat="57.60640548646635" locality="0" long="-3.615138695385637" name="Forres" rank="1" score="0.6487119794" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13464102" lat="57.54922670061904" locality="0" long="-3.624850299612195" name="Forres Ward" rank="2" score="0.6445794931" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4925902" lat="-27.8833333" locality="0" long="-63.9666667" name="Forres" rank="3" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6772704" lat="10.3666667" locality="0" long="-61.4333333" name="Forres Park" rank="4" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3039540" lat="6.81667" locality="0" long="80.55" name="Forres" rank="5" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:14010114" lat="-18.0305" locality="0" long="31.46469" name="Forres" rank="6" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2853167" lat="-18" locality="0" long="31.45" name="Forres" rank="7" score="0" type="other" />
+ </placename>
+ <placename id="rb27" name="Glamis">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11231036" lat="56.61531783513896" locality="0" long="-3.018478659140631" name="Newton of Glamis" rank="1" score="0.6952277042" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11152960" lat="56.60646663538559" locality="0" long="-3.001947927253541" name="Glamis" rank="2" score="0.6936375333" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11152961" lat="56.62443359352721" locality="0" long="-3.002423900474947" name="Glamis Castle" rank="3" score="0.6881072238" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11211382" lat="56.61558027456546" locality="0" long="-2.985892893375079" name="Mains of Glamis" rank="4" score="0.6866414305" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8092492" lat="32.997542" locality="0" long="-115.0719158" name="Glamis" rank="5" score="0.2067986836" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4858022" lat="-10.21667" locality="0" long="141.01667" name="Glamis Castle Shoal" rank="6" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4062620" lat="-10.2166667" locality="0" long="141.0166667" name="Glamis Castle Shoal" rank="7" score="0" type="other" />
+ </placename>
+ <placename id="rb45" name="ANGUS">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11117457" lat="56.55019856308662" locality="0" long="-3.26075812322148" name="Coupar Angus" rank="1" score="0.771996124" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7973529" lat="44.2300586" locality="0" long="-72.7906717" name="Angus Airways Airport" rank="2" score="0.486556385" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7847608" lat="42.7347914" locality="0" long="-76.9727424" name="Angus" rank="3" score="0.4822768853" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7886151" lat="41.1967204" locality="0" long="-83.2849229" name="Angus" rank="4" score="0.4065667284" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7881403" lat="44.2000522" locality="0" long="-75.90466309999999" name="Tims Angus Farm Airport" rank="5" score="0.3673116486" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7587911" lat="41.8833178" locality="0" long="-94.1574595" name="Angus" rank="6" score="0.3372464572" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10773023" lat="31.99762" locality="0" long="-96.42695999999999" name="City of Angus" rank="7" score="0.3106633065" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7413702" lat="32.0062671" locality="0" long="-96.4330375" name="Angus" rank="8" score="0.3106560972" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7144524" lat="38.4800155" locality="0" long="-94.1974445" name="Leos Angus Ranch Airport" rank="9" score="0.3062391198" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7124472" lat="36.634501" locality="0" long="-90.483723" name="Angus" rank="10" score="0.2888961024" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7803408" lat="40.2822308" locality="0" long="-97.97948529999999" name="Angus" rank="11" score="0.269474588" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7757334" lat="45.2335757" locality="0" long="-93.89719650000001" name="Angus Lake" rank="12" score="0.2334851519" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7757335" lat="48.068307" locality="0" long="-96.6956179" name="Township of Angus" rank="13" score="0.2059152487" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7757333" lat="48.081085" locality="0" long="-96.7031179" name="Angus" rank="14" score="0.2055802107" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7984228" lat="45.6477335" locality="0" long="-91.6018325" name="Angus" rank="15" score="0.2032258778" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7984229" lat="46.5704973" locality="0" long="-91.3563011" name="Angus Lake" rank="16" score="0.1805116381" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8195413" lat="33.4453576" locality="0" long="-105.66554" name="Angus" rank="17" score="0.1289472622" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2120883" lat="-0.25" locality="0" long="36.6" name="Angus Folly" rank="18" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3362187" lat="-20.4194444" locality="0" long="31.9638889" name="Angus Ranch" rank="19" score="0" type="other" />
+ </placename>
+ <placename id="rb54" name="BANQUO">
+  <place gazetteer="GeoNames" gazref="unlock:7658759" lat="40.6964322" locality="0" long="-85.61969999999999" name="Banquo" rank="1" score="0.4620943732" type="other" />
+ </placename>
+ <placename id="rb57" name="But">
+  <place gazetteer="GeoNames" gazref="unlock:4172675" lat="50.65" locality="0" long="3.5833333" name="Le But" rank="1" score="0.2028631106" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6438916" lat="14.18333" locality="0" long="-83.55" name="But Tara" rank="2" score="0.06326163781" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2567742" lat="40.78333" locality="0" long="20.85" name="But e Korit&#235;s" rank="3" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3757046" lat="11.4333333" locality="0" long="108.5" name="N&#250;i Che But" rank="4" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4853328" lat="-3.4" locality="0" long="143.23333" name="But" rank="5" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3755914" lat="20.0166667" locality="0" long="105.7166667" name="&#208;a B&#250;t" rank="6" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:1887752" lat="36.96194" locality="0" long="44.14444" name="K&#257;n&#299; B&#363;t" rank="7" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10336647" lat="11.4189" locality="0" long="33.3859" name="But" rank="8" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10323235" lat="36.40365" locality="0" long="43.56059" name="B&#363;t Dar&#299;n" rank="9" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3758164" lat="20.55" locality="0" long="105.8666667" name="B&#250;t Phong" rank="10" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3537610" lat="16.75" locality="0" long="106.5166667" name="Ban But" rank="11" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3741085" lat="13.95" locality="0" long="108.5" name="Plei But" rank="12" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2991020" lat="27.33333" locality="0" long="92.46666999999999" name="But" rank="13" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3529925" lat="20.9333333" locality="0" long="102.55" name="Houay But Tay" rank="14" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3758168" lat="19.1166667" locality="0" long="105.6833333" name="B&#250;t Li&#7877;n" rank="15" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2210533" lat="26.11917" locality="0" long="56.33611" name="Al B&#363;t" rank="16" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3745036" lat="22.4666667" locality="0" long="104.95" name="N&#7853;m B&#250;t" rank="17" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3755044" lat="21.3333333" locality="0" long="106.7166667" name="D&#233;o But" rank="18" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3746406" lat="14.6833333" locality="0" long="108.5833333" name="M&#224;ng But (2)" rank="19" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3759350" lat="20.2166667" locality="0" long="105.6666667" name="Binh B&#250;t" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb70" name="Inverness">
+  <place gazetteer="Natural Earth" gazref="unlock:14127765" in-cc="GB" lat="57.47871398925781" locality="0" long="-4.212450742721558" name="Inverness" pop="40755" rank="1" score="1.146454616" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11183090" in-cc="GB" lat="57.48028292163985" locality="0" long="-4.226820362370746" name="Inverness" pop="40755" rank="2" score="1.145385699" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7108778" lat="39.2626078" locality="0" long="-76.4921842" name="Inverness" rank="3" score="0.6443686772" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7222280" lat="35.1815492" locality="0" long="-79.2405839" name="Inverness" rank="4" score="0.4838429988" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7862660" lat="42.8928399" locality="0" long="-77.86945040000001" name="Inverness" rank="5" score="0.458322365" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10747369" lat="40.1294" locality="0" long="-75.08150000000001" name="Arcadia at Inverness Glen" rank="6" score="0.4415407182" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7662866" lat="41.7006059" locality="0" long="-85.09357900000001" name="Inverness" rank="7" score="0.4333133128" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7638444" lat="42.1180815" locality="0" long="-88.0961865" name="Inverness" rank="8" score="0.3778068375" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7180768" lat="33.3537315" locality="0" long="-90.5925907" name="Inverness" rank="9" score="0.3009871796" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6818882" lat="32.0148757" locality="0" long="-85.74605939999999" name="Inverness" rank="10" score="0.247913728" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6207119" lat="17.9166667" locality="0" long="-77.16666669999999" name="Inverness" rank="11" score="0.237645254" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6207118" lat="18.2833333" locality="0" long="-77.34999999999999" name="Inverness" rank="12" score="0.236925213" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8099785" lat="38.1010337" locality="0" long="-122.8569377" name="Inverness" rank="13" score="0.2272624928" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10861543" lat="38.08309" locality="0" long="-122.84729" name="Inverness" rank="14" score="0.226512503" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10770337" lat="28.83982" locality="0" long="-82.34246" name="City of Inverness" rank="15" score="0.1409981841" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6909444" lat="28.8358176" locality="0" long="-82.3303715" name="Inverness" rank="16" score="0.1409032868" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6909445" lat="28.8085964" locality="0" long="-82.316204" name="Inverness Airport" rank="17" score="0.1401862314" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8399111" lat="48.5566569" locality="0" long="-110.6841232" name="Inverness" rank="18" score="0.1293213413" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10861544" lat="48.55974" locality="0" long="-110.71016" name="Inverness" rank="19" score="0.1290930306" type="other" />
+ </placename>
+ <placename id="rb93" name="MACDUFF">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11154397" lat="56.21107397212918" locality="0" long="-3.797877741746952" name="Glen Macduff" rank="1" score="0.7777464262" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10787567" lat="42.47" locality="0" long="-75.06" name="Macduff Hall" rank="2" score="0.5930028596" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11210362" lat="57.6696576938938" locality="0" long="-2.494581072407842" name="Macduff" rank="3" score="0.5824636929" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8478610" lat="44.1284564" locality="0" long="-122.1650537" name="Macduff Mountain" rank="4" score="0.4724203371" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3030361" lat="6.88333" locality="0" long="80.73333" name="Macduff" rank="5" score="0" type="other" />
+ </placename>
+ <placename id="rb126" name="Beelzebub">
+  <place gazetteer="GeoNames" gazref="unlock:8197121" lat="35.9161232" locality="0" long="-108.9756484" name="Beelzebub" rank="1" score="0.244635004" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8620103" lat="61.1905556" locality="0" long="-149.0208333" name="Mount Beelzebub" rank="2" score="0" type="other" />
+ </placename>
+ <placename id="rb145" name="Let">
+  <place gazetteer="GeoNames" gazref="unlock:2517531" lat="50.1166667" locality="0" long="59.2833333" name="Dvadtsat&apos; Let Velikogo Oktyabrya" rank="1" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3661824" lat="52.0131" locality="0" long="81.4906" name="Desyat&#8217; Let Oktyabrya" rank="2" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3529177" lat="18.4" locality="0" long="103.2833333" name="Don Khone Let" rank="3" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3516087" lat="52.6333333" locality="0" long="76.5333333" name="Dvadtsat&apos; Pyat&apos; Let Oktyabrya" rank="4" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2517331" lat="50.5833333" locality="0" long="55.8666667" name="Imeni Trinadtsati Let Kazakhstana" rank="5" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2657970" lat="47.95306" locality="0" long="29.42917" name="Karmalyukivka" rank="6" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3894281" lat="55.9" locality="0" long="119.6" name="Imeni Odinnadtsati Let Oktyabrya" rank="7" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2517336" lat="50.95" locality="0" long="54.6" name="Imeni Pyatnadtsati Let Kazakhstana" rank="8" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3661483" lat="51.73333" locality="0" long="81.83333" name="Dvenadtsat&#8217; Let Oktyabrya" rank="9" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3516180" lat="43.28333" locality="0" long="76.66667" name="Desyat&#8217; Let Kazakhskoy Sovetskoy Sotsialisticheskoy Respubliki" rank="10" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3528584" lat="19.1833333" locality="0" long="104.1333333" name="Phou L&#234;t" rank="11" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3535260" lat="19.7333333" locality="0" long="102.4" name="Ban Long Let" rank="12" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:14041196" lat="46.6254" locality="0" long="41.4824" name="Dvadtsat&#8217; Pyat&#8217; Let Voyenkonezavoda" rank="13" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3760581" lat="21.3166667" locality="0" long="103.2833333" name="B&#7843;n Phi L&#233;t" rank="14" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2194139" lat="10.5" locality="0" long="39.066667" name="K&#8217;enina L&#275;t" rank="15" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3766289" lat="13.7833333" locality="0" long="109.275" name="N&#250;i Dau Goc Let" rank="16" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2517565" lat="51.15" locality="0" long="53.8333333" name="Desyat&apos; Let Kazakhstana" rank="17" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3661485" lat="59.76667" locality="0" long="78.83333" name="Dvadtsat&#8217; Let Oktyabrya" rank="18" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2447213" lat="48.75" locality="0" long="43.38333" name="Desyat&#8217; Let Oktyabrya" rank="19" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2447214" lat="48.71667" locality="0" long="45.53333" name="Desyat&#8217; Let Oktyabrya" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb147" name="England">
+  <place gazref="geonames:6269131" in-cc="GB" lat="52.1604546" locality="0" long="-0.7031250" name="England" pop="50000000" rank="1" score="2.255233722" type="civila" />
+  <place gazetteer="GeoNames" gazref="unlock:7830522" lat="42.7578673" locality="0" long="-71.2422828" name="New England Gliderport" rank="2" score="0.6362063317" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7103985" lat="39.6220477" locality="0" long="-76.8255321" name="England Estates" rank="3" score="0.5758658994" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7686236" lat="42.4514848" locality="0" long="-71.0864414" name="New England Memorial Hospital Heliport" rank="4" score="0.5587083341" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7500502" lat="38.3567939" locality="0" long="-77.5027628" name="England Run" rank="5" score="0.5229423795" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7500500" lat="38.7937266" locality="0" long="-77.8577722" name="England Mountain" rank="6" score="0.51832127" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7893674" lat="40.8403347" locality="0" long="-82.23932550000001" name="England" rank="7" score="0.3986300899" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7214905" lat="35.632905" locality="0" long="-81.76926520000001" name="England Knob" rank="8" score="0.3510936589" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10769515" lat="34.54541" locality="0" long="-91.96768" name="City of England" rank="9" score="0.3159373829" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6859671" lat="34.54426" locality="0" long="-91.96903" name="England" rank="10" score="0.3159055671" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6859676" lat="34.54176" locality="0" long="-91.98347" name="England Flying Service Airport" rank="11" score="0.3157638149" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7363923" lat="36.148411" locality="0" long="-84.5052153" name="England Mountain" rank="12" score="0.3120390026" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14121740" lat="52.66970634460449" locality="0" long="-1.117071032524109" name="England" rank="13" score="0.2958987792" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7285450" lat="35.8845303" locality="0" long="-94.6680018" name="England" rank="14" score="0.2951095177" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10833047" lat="39.04052" locality="0" long="-95.61691999999999" name="England Mobile Home Estates" rank="15" score="0.2628412683" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8430738" lat="46.5408417" locality="0" long="-102.867112" name="City of New England" rank="16" score="0.2300350553" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6211019" lat="17.3166667" locality="0" long="-62.7166667" name="John England Village" rank="17" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2507962" lat="63.3166667" locality="0" long="22.4833333" name="England" rank="18" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4886295" lat="-77.05" locality="0" long="162.45" name="England, Mount" rank="19" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14134637" lat="-82.61809661250592" locality="0" long="-52.80949866444752" name="England Pk." rank="20" score="0" type="other" />
+ <place gazetteer="GeoNames" gazref="unlock:4886291" lat="-73.50388890000001" locality="0" long="68.3911111" name="England Glacier" rank="21" score="0" type="other" /></placename>
+ <placename id="rb148" name="Ireland">
+  <place cc="IE" gazref="geonames:2963597" in-cc="IE" lat="53.0000000" locality="0" long="-8.0000000" name="Ireland" pop="4015676" rank="1" score="2.10660484" type="country" />
+  <place gazetteer="GeoNames" gazref="unlock:7108784" lat="38.6653967" locality="0" long="-76.58440280000001" name="Ireland Estates" rank="2" score="0.5936206126" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7828403" lat="44.1595083" locality="0" long="-71.8934215" name="Ireland" rank="3" score="0.5587719852" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8538279" lat="45.6592839" locality="0" long="-122.3723147" name="Ireland" rank="4" score="0.5474356251" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7709029" lat="43.8117444" locality="0" long="-70.3761634" name="Ireland Corner" rank="5" score="0.5374935233" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7862678" lat="41.6748157" locality="0" long="-74.13264479999999" name="Ireland Corners" rank="6" score="0.4920731042" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7264727" lat="39.2556311" locality="0" long="-81.77152169999999" name="Ireland" rank="7" score="0.4299385968" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7550895" lat="38.8156551" locality="0" long="-80.46175409999999" name="Ireland" rank="8" score="0.4035592941" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7442963" lat="31.5668256" locality="0" long="-97.965307" name="Ireland" rank="9" score="0.3254468642" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8473024" lat="44.8365334" locality="0" long="-118.3207768" name="Mount Ireland" rank="10" score="0.3248388384" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7009143" lat="38.4147739" locality="0" long="-86.99944549999999" name="Ireland" rank="11" score="0.3061702044" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7180781" lat="31.347114" locality="0" long="-91.2226086" name="Ireland" rank="12" score="0.2636519671" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8281094" lat="38.6833094" locality="0" long="-111.0512766" name="Ireland Mesa" rank="13" score="0.2343833821" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14133891" lat="53.41721153259277" locality="0" long="-7.95464015007019" name="IRELAND" rank="14" score="0.2007309689" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14123759" lat="53.41574478149414" locality="0" long="-8.235229253768921" name="Ireland" rank="15" score="0.1935885667" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14127932" lat="53.41574478149414" locality="0" long="-8.235229253768921" name="Ireland" rank="16" score="0.1935885667" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4632210" lat="53" locality="0" long="-8" name="&#201;ire" rank="17" score="0.1858531075" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4844306" lat="-3" locality="0" long="151.5" name="New Ireland Province" rank="18" score="0" type="other" />
+ <place gazetteer="Natural Earth" gazref="unlock:14125718" lat="-3.700860381126404" locality="0" long="151.9379348754883" name="New Ireland" rank="19" score="0" type="other" /></placename>
+ <placename id="rb153" name="Macduff">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11154397" lat="56.21107397212918" locality="0" long="-3.797877741746952" name="Glen Macduff" rank="1" score="0.7777464262" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10787567" lat="42.47" locality="0" long="-75.06" name="Macduff Hall" rank="2" score="0.5930028596" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11210362" lat="57.6696576938938" locality="0" long="-2.494581072407842" name="Macduff" rank="3" score="0.5824636929" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8478610" lat="44.1284564" locality="0" long="-122.1650537" name="Macduff Mountain" rank="4" score="0.4724203371" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3030361" lat="6.88333" locality="0" long="80.73333" name="Macduff" rank="5" score="0" type="other" />
+ </placename>
+ <placename id="rb178" name="Caesar">
+  <place gazetteer="GeoNames" gazref="unlock:7824409" lat="42.8689708" locality="0" long="-72.2923076" name="Mount Caesar" rank="1" score="0.6215323389" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7700776" lat="44.0650763" locality="0" long="-69.98421829999999" name="Caesar Pond" rank="2" score="0.5272725303" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6891397" lat="39.1190014" locality="0" long="-75.5415909" name="Caesar Rodney School District" rank="3" score="0.490290257" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6891394" lat="39.1495568" locality="0" long="-75.5049231" name="Caesar Rodney Helistop" rank="4" score="0.4871057974" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8023418" lat="41.34732" locality="0" long="-72.2206346" name="Mount Caesar" rank="5" score="0.4500750317" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7257155" lat="39.476727" locality="0" long="-84.093823" name="Caesar Creek Gliderport" rank="6" score="0.4220034532" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7542067" lat="38.1470629" locality="0" long="-80.26090619999999" name="Caesar Mountain" rank="7" score="0.3871832015" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8300884" lat="41.0040292" locality="0" long="-123.036979" name="Caesar Peak" rank="8" score="0.3714463568" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7004923" lat="38.9697798" locality="0" long="-85.09856550000001" name="Township of Caesar Creek" rank="9" score="0.369985491" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7208080" lat="35.0762009" locality="0" long="-83.7915629" name="Caesar Austin Branch" rank="10" score="0.3533824573" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8155970" lat="38.9983144" locality="0" long="-107.8408962" name="Caesar Creek" rank="11" score="0.3530428865" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7068173" lat="31.9993272" locality="0" long="-93.0601621" name="Caesar Creek" rank="12" score="0.3094398681" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6984598" lat="39.1880996" locality="0" long="-89.16591099999999" name="Caesar Creek" rank="13" score="0.2953512696" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8101596" lat="37.3566022" locality="0" long="-118.7817863" name="Mount Julius Caesar" rank="14" score="0.2652549261" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6802609" lat="33.6362215" locality="0" long="-87.73057009999999" name="Caesar Creek" rank="15" score="0.2359099223" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7420872" lat="28.6555425" locality="0" long="-97.898335" name="Caesar" rank="16" score="0.21386053" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7420875" lat="28.6505428" locality="0" long="-97.8875014" name="Caesar Oil Field" rank="17" score="0.2137504733" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7169829" lat="30.5843575" locality="0" long="-89.54672650000001" name="Caesar" rank="18" score="0.1994263447" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6899241" lat="25.3937238" locality="0" long="-80.2322733" name="Caesar Rock" rank="19" score="0.06193883031" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5119041" lat="17.65" locality="0" long="-88.5666667" name="Caesar Cato" rank="20" score="0.03442939693" type="other" />
+ </placename>
+ <placename id="rb244" name="Northumberland">
+  <place gazetteer="GeoNames" gazref="unlock:7869691" lat="43.1272972" locality="0" long="-73.58817139999999" name="Northumberland" rank="1" score="0.5748255231" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7869692" lat="43.1611854" locality="0" long="-73.63289469999999" name="Town of Northumberland" rank="2" score="0.5727163841" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7830863" lat="44.5656108" locality="0" long="-71.52230609999999" name="Town of Northumberland" rank="3" score="0.5406850502" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7830860" lat="44.5633886" locality="0" long="-71.558696" name="Northumberland" rank="4" score="0.5392881831" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944166" lat="40.891752" locality="0" long="-76.79746539999999" name="Northumberland" rank="5" score="0.4627280881" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944171" lat="40.8945298" locality="0" long="-76.7866315" name="Borough of Northumberland" rank="6" score="0.4624358723" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944167" lat="40.8500856" locality="0" long="-76.6663497" name="Northumberland County" rank="7" score="0.4600053637" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7905401" lat="40.4531039" locality="0" long="-84.1802242" name="Northumberland (historical)" rank="8" score="0.4568509793" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944168" lat="40.8370304" locality="0" long="-76.5524564" name="Northumberland County Airport" rank="9" score="0.4565425902" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7519341" lat="37.8834656" locality="0" long="-76.4163384" name="Northumberland County" rank="10" score="0.4547620472" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14125970" lat="55.29215621948242" locality="0" long="-2.070565819740295" name="Northumberland" rank="11" score="0.4281690195" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13298165" lat="55.0024627693667" locality="0" long="-1.544822281831896" name="Northumberland Ward" rank="12" score="0.3661711548" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13299731" lat="51.60246681075576" locality="0" long="-0.05708993828170331" name="Northumberland Park Ward" rank="13" score="0.3186372714" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11233614" lat="51.47592797211919" locality="0" long="0.1673724996901443" name="Northumberland Heath" rank="14" score="0.3151509802" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13297867" lat="51.47499002415803" locality="0" long="0.1534744990082867" name="Northumberland Heath Ward" rank="15" score="0.3151458012" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8254965" lat="39.0177069" locality="0" long="-116.9481389" name="West Northumberland Canyon" rank="16" score="0.2562768755" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8249609" lat="38.9515964" locality="0" long="-116.8478589" name="Northumberland (historical)" rank="17" score="0.2511168335" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8249611" lat="38.9249299" locality="0" long="-116.8634146" name="Northumberland Mining District" rank="18" score="0.2509770274" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8243594" lat="38.8907637" locality="0" long="-116.8023019" name="East Northumberland Canyon" rank="19" score="0.2493742279" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5842947" lat="77.3666667" locality="0" long="-71.91666669999999" name="Kiatak" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb256" name="Howe">
+  <place gazetteer="GeoNames" gazref="unlock:7828106" lat="42.8839763" locality="0" long="-71.2156165" name="Howe Hill" rank="1" score="0.6425937834" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7680986" lat="42.6014769" locality="0" long="-71.9786885" name="Howe Hill" rank="2" score="0.620492313" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7708608" lat="44.3889553" locality="0" long="-70.7159005" name="Howe Hill" rank="3" score="0.5896848038" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7828110" lat="44.3517294" locality="0" long="-71.0703522" name="Howe Peak" rank="4" score="0.5675377418" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7573970" lat="43.5306269" locality="0" long="-72.34092440000001" name="Howe Hill" rank="5" score="0.5608484348" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7828107" lat="43.4953507" locality="0" long="-72.12286520000001" name="Howe Hill" rank="6" score="0.5587136332" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7861813" lat="43.39007" locality="0" long="-73.79956559999999" name="Howe Mountain" rank="7" score="0.5577825993" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7828117" lat="44.0775653" locality="0" long="-71.9103645" name="Howe Hill" rank="8" score="0.5573486051" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7680987" lat="42.2875922" locality="0" long="-71.90507340000001" name="Howe Hill" rank="9" score="0.5545356808" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7977456" lat="43.7447909" locality="0" long="-72.4778728" name="Howe Hill" rank="10" score="0.5439268511" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7577364" lat="41.9073165" locality="0" long="-73.2990058" name="Howe Mountain" rank="11" score="0.4893630574" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8305548" lat="41.7671017" locality="0" long="-121.5369381" name="Howe Point" rank="12" score="0.3523775361" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7708595" lat="45.9331016" locality="0" long="-68.92504510000001" name="Howe Peaks" rank="13" score="0.3303355656" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7708594" lat="46.0708776" locality="0" long="-68.9994919" name="Howe Peak" rank="14" score="0.3220128693" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7737583" lat="43.4958581" locality="0" long="-85.5736557" name="Howe Airport" rank="15" score="0.3008772919" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7708592" lat="46.2964369" locality="0" long="-68.1628063" name="Howe Brook Mountain" rank="16" score="0.2718194812" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8336330" lat="48.1902063" locality="0" long="-116.2196202" name="Howe Mountain" rank="17" score="0.220046013" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8336328" lat="43.8390702" locality="0" long="-113.0466698" name="Howe Airport" rank="18" score="0.188358112" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8336331" lat="43.7132371" locality="0" long="-113.1002801" name="Howe Peak" rank="19" score="0.1871146905" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:4888753" lat="-87.3666667" locality="0" long="-149.5" name="Howe, Mount" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb267" name="Birnam">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11241004" lat="56.5381053869046" locality="0" long="-3.536845094832944" name="Pass of Birnam" rank="1" score="0.7654343327" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11077859" lat="56.53790329013422" locality="0" long="-3.553101283820669" name="Birnam Wood" rank="2" score="0.7624601451" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11077858" lat="56.54668065533464" locality="0" long="-3.569728914920845" name="Birnam Hill" rank="3" score="0.7565507765" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11077857" lat="56.55566222814168" locality="0" long="-3.570100783746909" name="Birnam" rank="4" score="0.7535131198" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7490466" lat="38.0787484" locality="0" long="-78.49417870000001" name="Birnam Wood" rank="5" score="0.4124691374" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7490467" lat="36.5920827" locality="0" long="-79.4778032" name="Birnam Wood" rank="6" score="0.3959115459" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7349736" lat="35.1386834" locality="0" long="-85.3374599" name="Birnam Wood" rank="7" score="0.317092358" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8068986" lat="34.4327734" locality="0" long="-119.610685" name="Birnam Wood Golf Club" rank="8" score="0.2480150579" type="other" />
+ </placename>
+ <placename id="rb320" name="Arabia">
+  <place gazetteer="GeoNames" gazref="unlock:7856463" lat="42.9584062" locality="0" long="-74.5179169" name="East Stone Arabia" rank="1" score="0.6021278998" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7880172" lat="42.9536838" locality="0" long="-74.5584738" name="Stone Arabia" rank="2" score="0.6020161391" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7847679" lat="42.5339653" locality="0" long="-74.6357046" name="Arabia" rank="3" score="0.5994505917" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7847678" lat="42.2998056" locality="0" long="-75.0551653" name="Arabia" rank="4" score="0.5751574787" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7202383" lat="34.9501647" locality="0" long="-79.1255876" name="Arabia" rank="5" score="0.4753260392" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8433294" lat="42.7311139" locality="0" long="-100.372629" name="Arabia" rank="6" score="0.4024891468" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7254891" lat="38.6581354" locality="0" long="-82.4734899" name="Arabia" rank="7" score="0.3951204791" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7003537" lat="39.7661501" locality="0" long="-87.32196020000001" name="Arabia" rank="8" score="0.3720850814" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6929760" lat="33.6651093" locality="0" long="-84.11824970000001" name="Arabia Mountain" rank="9" score="0.3361390231" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8441165" lat="40.3635185" locality="0" long="-118.3926476" name="Arabia" rank="10" score="0.3011906556" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8294586" lat="40.4210176" locality="0" long="-118.4104266" name="Arabia Mining District" rank="11" score="0.3003350793" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:5671287" lat="18.7" locality="0" long="-70.55" name="Arabia" rank="12" score="0.07157053202" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14123825" lat="24.24629878997803" locality="0" long="45.06373977661133" name="Saudi Arabia" rank="13" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:10262689" lat="25" locality="0" long="45" name="Arabia" rank="14" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3870804" lat="37.0166667" locality="0" long="-7.9666667" name="Ar&#225;bia" rank="15" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2297928" lat="3.525411" locality="0" long="41.4990787" name="Arabia" rank="16" score="0" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14128008" lat="24.24629878997803" locality="0" long="45.06373977661133" name="Saudi Arabia" rank="17" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:1964777" lat="25" locality="0" long="45" name="Arabia" rank="18" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2029182" lat="25" locality="0" long="45" name="Kingdom of Saudi Arabia" rank="19" score="0" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:6417607" lat="-17.9666667" locality="0" long="15.9666667" name="Arabia" rank="20" score="0" type="other" />
+ </placename>
+ <placename id="rb323" name="MENTEITH">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11248725" lat="56.18514443706216" locality="0" long="-4.280159358958178" name="Port of Menteith" rank="1" score="0.6839898461" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11190482" lat="56.17586810022951" locality="0" long="-4.29572281286656" name="Lake of Menteith" rank="2" score="0.6801634037" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11217144" lat="56.19322199599512" locality="0" long="-4.329001456318886" name="Menteith Hills" rank="3" score="0.6708886758" type="other" />
+ </placename>
+ <placename id="rb324" name="CAITHNESS">
+  <place gazetteer="GeoNames" gazref="unlock:7099643" lat="39.1095524" locality="0" long="-77.075534" name="Caithness Shelter School" rank="1" score="0.6659100962" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11236980" lat="58.13662373509448" locality="0" long="-3.605102357300149" name="Ord of Caithness" rank="2" score="0.5607097864" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13225347" lat="58.13793392350335" locality="0" long="-4.219086747317311" name="Caithness, Sutherland and Easter Ross Co Const" rank="3" score="0.5521104004" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13214125" lat="58.1790543040844" locality="0" long="-4.220213671921872" name="Caithness, Sutherland and Easter Ross P Const" rank="4" score="0.5420760875" type="other" />
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11096398" lat="58.30226052990074" locality="0" long="-3.254213159144714" name="Caithness Cheese" rank="5" score="0.5231307034" type="other" />
+  <place gazetteer="Boundary-Line, Open" gazref="unlock:13471982" lat="58.40910812858041" locality="0" long="-3.437163211993359" name="Landward Caithness Ward" rank="6" score="0.4985016112" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:2856295" lat="-19.9333333" locality="0" long="28.2" name="Caithness" rank="7" score="0" type="other" />
+ </placename>
+ <placename id="rb334" name="Dunsinane">
+  <place gazetteer="OS 1:50 000 Scale Gazetteer, Open" gazref="unlock:11134449" lat="56.46918753549443" locality="0" long="-3.274306070551989" name="Dunsinane Hill" rank="1" score="0.7829087982" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8160412" lat="38.1299932" locality="0" long="-107.5395038" name="Dunsinane" rank="2" score="0.3424227114" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:3040348" lat="6.98333" locality="0" long="80.7" name="Dunsinane" rank="3" score="0" type="other" />
+ </placename>
+ <placename abbrev-for="Oregon" contains="rb1" id="rb364" name="Or">
+  <place gazref="geonames:5744337" in-cc="US" lat="44.0001313" locality="0" long="-99.9999999" name="Oregon" rank="1" score="3.641875173" type="civila" />
+  
+  <place gazetteer="GeoNames" gazref="unlock:7979792" lat="42.9645247" locality="0" long="-72.7337055" name="Oregon Mountain" rank="2" score="0.5802773577" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7870352" lat="43.2620137" locality="0" long="-74.6470923" name="Oregon Mountain" rank="3" score="0.5626324498" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484224" lat="45.27762" locality="0" long="-122.59703" name="Oregon City Airpark" rank="4" score="0.5494029519" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484248" lat="45.4956739" locality="0" long="-122.6873182" name="Oregon Health Sciences University Heliport" rank="5" score="0.5492768531" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7870350" lat="42.253128" locality="0" long="-77.41803849999999" name="Oregon Hill" rank="6" score="0.4956599158" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7944879" lat="41.53063" locality="0" long="-77.28859" name="Oregon Hill Airport" rank="7" score="0.4760888129" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8458597" lat="44.289287" locality="0" long="-121.1691994" name="Central Oregon District Hospital Helipad" rank="8" score="0.4646722741" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7870351" lat="41.0245447" locality="0" long="-72.5361995" name="Oregon Hills" rank="9" score="0.4220789315" type="other" />
+  <place gazetteer="Natural Earth" gazref="unlock:14128166" lat="44.11615753173828" locality="0" long="-120.5108680725098" name="Oregon" rank="10" score="0.4191164384" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484307" lat="44.0001313" locality="0" long="-120.5013876" name="Oregon" rank="11" score="0.4092236834" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484267" lat="42.001501" locality="0" long="-123.7981277" name="Oregon Mountain" rank="12" score="0.4019291695" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8309122" lat="40.7193109" locality="0" long="-122.9816939" name="Oregon Mountain" rank="13" score="0.3602490925" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:7151595" lat="36.7333912" locality="0" long="-91.4168044" name="Oregon County" rank="14" score="0.3161939782" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8545692" lat="46.1104235" locality="0" long="-117.6790797" name="Oregon Butte" rank="15" score="0.313072046" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484239" lat="42.0476713" locality="0" long="-118.8201818" name="Oregon End Table" rank="16" score="0.2759119555" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8173748" lat="39.8591541" locality="0" long="-105.5577768" name="Oregon Hill" rank="17" score="0.247567943" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484209" lat="42.0118314" locality="0" long="-117.3526339" name="Oregon Butte" rank="18" score="0.2473449559" type="other" />
+  <place gazetteer="GeoNames" gazref="unlock:8484261" lat="42.2801618" locality="0" long="-117.1240223" name="Oregon Hill" rank="19" score="0.2411305362" type="other" />
+ <place gazetteer="GeoNames" gazref="unlock:8342970" lat="45.5215704" locality="0" long="-115.6692953" name="Oregon Butte" rank="20" score="0.2314184497" type="other" /><place gazetteer="GeoNames" gazref="unlock:8410214" lat="45.0443811" locality="0" long="-110.5807613" name="Oregon Mountain" rank="21" score="0.1844133732" type="other" /></placename>
+</placenames><events /></elements>

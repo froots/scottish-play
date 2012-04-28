@@ -6,11 +6,11 @@ namespace :import do
   end
   
   task :local => :environment do
-    characters = Source::Characters.new("tmp/source/macbeth_characters.xml")
+    characters = Source::Characters.new("lib/data/macbeth_characters.xml")
     characters.load
     characters.update
 
-    play = Source::Play.new("tmp/source/macbeth.xml")
+    play = Source::Play.new("lib/data/macbeth.xml")
     play.load
     play.update
 
