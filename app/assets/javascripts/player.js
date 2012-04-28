@@ -23,7 +23,7 @@
 
       player.set({ name: name });
 
-      vent.trigger("client-player:register", name);
+      vent.trigger("client-player:register", { user_id: name });
       this.assignRoleProxy = $.proxy(this.onAssignRole, this);
       vent.bind("client-player:assignRole", this.assignRoleProxy);
     },
@@ -138,9 +138,12 @@
 
     initialize: function() {
       var vent = Shake.Vent;
-      _.bindAll(this, "onSceneStart");
+      _.bindAll(this, "onSceneStart", "onSceneEnd");
       this.tmpl = JST['templates/audience'];
+      this.vegHurled = 0;
+      this.flowersHurled = 0;
       vent.bind("client-scene:start", this.onSceneStart);
+      vent.bind("client-scene:end", this.onSceneEnd);
     },
 
     events: {
@@ -152,20 +155,24 @@
       this.$el.html(this.tmpl(this.model.toJSON()));
       this.$waiting = this.$('.waiting');
       this.$vote = this.$('.vote');
+      this.$end = this.$('.end');
       return this;
     },
 
     onSceneStart: function() {
       this.$waiting.hide();
+      this.$end.hide();
       this.$vote.show();
     },
 
-    throwTomato: function() {
+    throwTomato: function(ev) {
       this.throwObject('veg');
+      this.vegHurled++;
     },
 
     throwFlowers: function() {
       this.throwObject('flowers');
+      this.flowersHurled++;
     },
 
     throwObject: function(obj) {
@@ -173,6 +180,14 @@
         user_id: this.model.get('name'),
         object: obj
       });
+    },
+
+    onSceneEnd: function() {
+      this.$end.find('.veg-count').text(this.vegHurled);
+      this.$end.find('.flowers-count').text(this.flowersHurled);
+      this.$end.show();
+      this.$waiting.hide();
+      this.$vote.hide();
     }
   }),
 
