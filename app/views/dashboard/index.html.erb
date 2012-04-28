@@ -12,17 +12,18 @@
   var server = new Shake.Server();
   server.init();
 
+  var feed = new Shake.ServerViews.Feed().render();
+  $('#feed').append( feed.el );
+
   $('#go-button').click(function() {
     server.startGame();
   });
 
-  var feed     = new Shake.ServerViews.Feed({
-    el: $('#feed')
-  }).render();
   var cast     = new Shake.ServerViews.Cast({
     el: $('#cast'),
     players: Shake.Game.Players
   }).render();
+
   var audience = new Shake.ServerViews.Audience({
     el: $('#audience'),
     players: Shake.Game.Players

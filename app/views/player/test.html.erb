@@ -5,11 +5,14 @@ var vent = Shake.getVent();
 
 vent.bind('pusher:subscription_succeeded', function() {
 	_.each(handles, function(handle, index) {
-		vent.trigger('client-player:register', handle);
+    vent.trigger('client-player:register', {user_id: handle});
 	});
 	vent.bind('client-player:deliver', function(data) {
 		console.log(data.user_id, 'speaking', data.lines);
-		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), object: 'abuse'});
+    var hurlableObjects = ['flowers', 'veg'];
+
+		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), object: _.first(_.shuffle(hurlableObjects))});
+
 		setTimeout(function() {
 			vent.trigger('client-player:exunt', {});
 		}, 2000);
