@@ -243,11 +243,21 @@ var assigned = false;
     },
 
     throwTomato: function(ev) {
+      var button = this.$('.tomato');
+      button.prop('disabled', true);
+      window.setTimeout(function() {
+        button.prop('disabled', false);
+      }, 3000);
       this.throwObject('veg');
       this.vegHurled++;
     },
 
     throwFlowers: function() {
+      var button = this.$('.flowers');
+      button.prop('disabled', true);
+      window.setTimeout(function() {
+        button.prop('disabled', false);
+      }, 3000);
       this.throwObject('flowers');
       this.flowersHurled++;
     },
