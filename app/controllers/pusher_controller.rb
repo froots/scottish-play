@@ -10,10 +10,17 @@ class PusherController < ApplicationController
   
   def login
     session[:user_id] = params[:user_id]
-    if params[:server] == 'true'
-      redirect_to :action => :server
-    else
-      redirect_to :action => :client
+    respond_to do |format|
+      format.html do
+        if params[:server] == 'true'
+          redirect_to :action => :server
+        else
+          redirect_to :action => :client
+        end
+      end
+      format.js do
+        head :ok
+      end
     end
   end
 
