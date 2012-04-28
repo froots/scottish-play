@@ -2,6 +2,7 @@ Shake.ServerViews ||= {}
 
 class CastMember extends Backbone.View
   tagName: 'span'
+  className: 'cast-member'
 
   initialize: ->
     Shake.Game.Players.bind 'deliver', (data) =>
@@ -24,7 +25,7 @@ class Shake.ServerViews.Cast extends Backbone.View
         @addOne(player)
     
   render: =>
-    $(@el).append $('<h1>').text('cast')
+    @
 
   addOne: (player) =>
     playerView = new CastMember(model: player)
