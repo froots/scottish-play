@@ -1,7 +1,7 @@
 <h1>Loading...</h1>
 
 <script>
-var Shakey = window.Shakey || {};
-Shakey.characters = <%= @characters.to_json.html_safe %>;
-Shakey.scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
+var Shake = window.Shake || {};
+Shake.characters = <%= @characters.to_json.html_safe %>;
+Shake.scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
 </script>
