@@ -1,9 +1,13 @@
 
 
-
+body { 
+  background: white;
+}
 
 #audience {
-  background: #333366;
+  background: black;
+  border-left: 18px white solid;
+  border-right: 18px white solid;
   height: 400px;
 }
 
@@ -58,6 +62,8 @@
 #cast {
   .cast-member {
     position: relative;
+    width: 100px;
+    height: 100px;
     
     .avatar {
       height: 100%;
