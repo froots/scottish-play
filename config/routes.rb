@@ -1,4 +1,6 @@
 ScottishPlay::Application.routes.draw do
+  get "dashboard/index"
+
   get "player/index"
 
   # The priority is based upon order of creation:
@@ -14,7 +16,14 @@ ScottishPlay::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  resources :pusher do
+    collection do
+      get 'server'
+      get 'client'
+      get 'login'
+      post 'auth'
+    end
+  end
   # Sample resource route with options:
   #   resources :products do
   #     member do

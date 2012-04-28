@@ -1,0 +1,7 @@
+<h1>Loading...</h1>
+
+<script>
+var Shake = window.Shake || {};
+Shake.characters = <%= @characters.to_json.html_safe %>;
+Shake.scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
+</script>
