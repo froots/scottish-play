@@ -143,6 +143,11 @@
       vent.bind("client-scene:start", this.onSceneStart);
     },
 
+    events: {
+      'click .tomato': 'throwTomato',
+      'click .flowers': 'throwFlowers'
+    },
+
     render: function() {
       this.$el.html(this.tmpl(this.model.toJSON()));
       this.$waiting = this.$('.waiting');
@@ -153,6 +158,21 @@
     onSceneStart: function() {
       this.$waiting.hide();
       this.$vote.show();
+    },
+
+    throwTomato: function() {
+      this.throwObject('veg');
+    },
+
+    throwFlowers: function() {
+      this.throwObject('flowers');
+    },
+
+    throwObject: function(obj) {
+      Shake.Vent.trigger("client-player:hurl", {
+        user_id: this.model.get('name'),
+        object: obj
+      });
     }
   }),
 
