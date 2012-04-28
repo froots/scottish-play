@@ -9,7 +9,7 @@ class Player extends Backbone.Model
       @updateClient("player:assignRole", {role: @get('role'), character: @get('character')})
 
   twitterAvatarUrl: =>
-    "http://twitter.com/api/users/profile_image/#{@get('user_id')}"
+    "http://twitter.com/api/users/profile_image/#{@get('user_id')}?size=bigger"
 
   assignRole: (role, character) =>
     if character
@@ -29,13 +29,13 @@ class Players extends Backbone.Collection
 
 class Character extends Backbone.Model
   defaults:
-    has_actor: false
+    actor: null
 
 class Characters extends Backbone.Collection
   model: Character
   
   withoutActors: ->
-    @select (c) -> !c.get('has_actor')
+    @select (c) -> !c.get('actor')
   
   
 Game = {}
@@ -49,6 +49,7 @@ Game.registerPlayer = (user_id) ->
   freeCharacters = Game.Characters.withoutActors()
   if _.any(freeCharacters)
     character = freeCharacters.pop()
+    character.set({actor: user_id})
     player.assignRole('cast', character.get('name'))
   else
     player.assignRole('audience')

@@ -5,8 +5,7 @@ class window.Shake.Server
     game = Shake.Game
 
     game.Players.bind 'add', (player) ->
-      console.log 'foo'
-      $('body').append $('<img>').attr('src', player.twitterAvatarUrl())
+      $('.dpl-actor').append $('<img>').attr('src', player.twitterAvatarUrl())
 
     vent.bind 'pusher:subscription_succeeded', =>
       vent.bind 'client-player:register', @onRegister
