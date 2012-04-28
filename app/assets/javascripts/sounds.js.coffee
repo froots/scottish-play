@@ -1,6 +1,6 @@
 class window.Shake.Soundplayer
-  baseDir = 'http://www.beano.com/content/audio/'
-  #baseDir = '/audio/'
+  #baseDir = 'http://www.beano.com/content/audio/'
+  baseDir = '/audio/'
 
   playSound: (sound) ->
   	soundFile = baseDir + sound + '.ogg'
