@@ -55,6 +55,27 @@
   }
 }
 
+#cast {
+  .cast-member {
+    position: relative;
+    
+    .avatar {
+      height: 100%;
+      width: 100%;
+    }
+
+    .decoration {
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 20px;
+    }
+    .decoration.splat {
+      width: 30px;
+    }
+  }
+}
+
 #go-button { 
   position: absolute;
   top: 0;

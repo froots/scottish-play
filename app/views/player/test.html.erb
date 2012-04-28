@@ -9,13 +9,13 @@ vent.bind('pusher:subscription_succeeded', function() {
 	});
 	vent.bind('client-player:deliver', function(data) {
 		console.log(data.user_id, 'speaking', data.lines);
-    var hurlableObjects = ['flowers', 'veg'];
+    	var hurlableObjects = ['flowers'];
 
 		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), object: _.first(_.shuffle(hurlableObjects))});
 
 		setTimeout(function() {
-			vent.trigger('client-player:exunt', {});
-		}, 2000);
+			vent.trigger('client-player:exeunt', {});
+		}, 3000);
 	});
 });
 </script>

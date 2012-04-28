@@ -8,7 +8,7 @@ class window.Shake.Server
 
     vent.bind 'pusher:subscription_succeeded', =>
       vent.bind 'client-player:register', @onRegister
-      vent.bind 'client-player:exunt', @onNextPlayer
+      vent.bind 'client-player:exeunt', @onNextPlayer
       vent.bind 'client-player:hurl', @onHurl
       
       Shake.Game.Players.bindScores()

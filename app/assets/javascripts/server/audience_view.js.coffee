@@ -11,10 +11,17 @@ class AudienceMember extends Backbone.View
 
   animate: (obj) =>
     animateAttrs = {width: 100, right: 0, bottom: 0}
+    currentCharacter = Shake.Game.getCurrentCharacter()
     if obj == 'veg'
-      @$('.tomato').animate animateAttrs, 400, (-> $(this).css({width: 0, right: 10, bottom: 10}))
+      @$('.tomato').animate animateAttrs, 400, -> 
+        $(this).css({width: 0, right: 10, bottom: 10})
+        if (currentCharacter != null)
+          Shake.Game.Players.trigger 'veg', {user_id: currentCharacter.get('actor')}
     if obj == 'flowers'
-      @$('.flowers').animate animateAttrs, 400, (-> $(this).css({width: 0, right: 10, bottom: 10}))
+      @$('.flowers').animate animateAttrs, 400, -> 
+        $(this).css({width: 0, right: 10, bottom: 10})
+        if (currentCharacter != null)
+          Shake.Game.Players.trigger 'flowers', {user_id: currentCharacter.get('actor')}
 
   render: =>
     img = $('<img>').attr('src', @options.model.twitterAvatarUrl())
