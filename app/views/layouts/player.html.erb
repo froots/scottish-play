@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Scottish Play</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Jim+Nightshade' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    "player", :media => "all" %>
+  <script src="http://js.pusher.com/1.12/pusher.min.js"></script>
+  <%= javascript_include_tag "player-main" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>Shakey</h1>
+<%= yield %>
+</body>
+</html>
