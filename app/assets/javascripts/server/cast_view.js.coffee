@@ -4,9 +4,8 @@ class CastMember extends Backbone.View
   tagName: 'span'
 
   initialize: ->
-    Shake.Vent.bind 'client-player:deliver', (data) =>
-      console.log data.user_id, @options.model.get('user_id')
-      if data.user_id == @options.model.get('user_id')
+    Shake.Game.Players.on 'deliver', (user_id) =>
+      if user_id == @options.model.get('user_id')
         @animate()
 
   animate: =>

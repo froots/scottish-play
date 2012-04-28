@@ -27,6 +27,7 @@ class window.Shake.Server
     character = Shake.Game.getCurrentCharacter()
     console.log 'sending paragraph to', character.get('actor')
     vent.trigger('client-player:deliver', { user_id: character.get('actor'), lines: Shake.Game.currentParagraph.lines })
+    Shake.Game.Players.trigger 'deliver', character.get('actor')
 
   onNextPlayer: =>
     if Shake.Game.loadNextParagraph()
