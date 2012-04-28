@@ -31,6 +31,7 @@ class CastMember extends Backbone.View
   	top = Math.floor(Math.random() * ((@dimensions.height - 23) + 1))
   	left = Math.floor(Math.random() * ((@dimensions.width - 30) + 1))
   	@$el.append $('<img class="decoration splat" src="/assets/splat.png" />').css({left: left, top: top})
+  	Shake.Sounds.playSound 'fart'
 
   flowers: =>
   	noFlowers = @$el.find('.flower').length
