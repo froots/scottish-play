@@ -7,6 +7,7 @@ gem 'rails', '3.2.3'
 
 gem 'nokogiri'
 gem 'heroku'
+gem 'ejs'
 
 group :development, :test do
   gem 'sqlite3'
