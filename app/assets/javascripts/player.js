@@ -10,14 +10,14 @@
       var vent = Shake.getVent();
       this.views.sortingView = new SortingView();
       this.views.sortingView.render().$el.appendTo(this.$el);
-      vent.trigger("client-player:register", vent.members.me.info.name);
+      
       // use below to save player details to model
-      // vent.bind('pusher:subscription_succeeded', this.onRegister, this);
+      vent.bind('pusher:subscription_succeeded', this.onRegister, this);
     },
 
     onRegister: function() {
       var vent = Shake.Vent;
-      console.log(vent.members.me);
+      vent.trigger("client-player:register", vent.members.me.info.name);
     }
   }),
 
