@@ -11,7 +11,9 @@ vent.bind('pusher:subscription_succeeded', function() {
 	});
 	vent.bind('client-player:delivery', function() {
 		vent.trigger('client-player:hurl', {user_id: _.first(_.shuffle(handles)), 'abuse'});
-		vent.trigger('client-player:exunt', {});
+		setTimeout(function() {
+			vent.trigger('client-player:exunt', {});
+		}, 1000);
 	});
 });
 </script>
