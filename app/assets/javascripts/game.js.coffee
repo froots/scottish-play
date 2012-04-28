@@ -72,7 +72,7 @@ Game.registerPlayer = (data) ->
   Game.Players.add player
 
 Game.loadNextParagraph = ->
-  Game.currentParagraph = Game.Scene.paragraphs.pop()
+  Game.currentParagraph = Game.Paragraphs.pop()
   
   if Game.currentParagraph == null || _.isUndefined Game.currentParagraph
     return false

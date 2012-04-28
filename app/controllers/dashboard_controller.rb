@@ -1,6 +1,6 @@
 class DashboardController < ApplicationController
   def index
-  	@scene = Scene.find(6)
-  	@characters = @scene.characters
+  	@paragraphs = Paragraph.where('number >=794').where('number <= 856').includes(:lines).order(:number)
+  	@characters = @paragraphs.collect(&:character).uniq!
   end
 end

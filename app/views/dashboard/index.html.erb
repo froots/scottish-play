@@ -16,7 +16,7 @@
 <script>
   var Shake = window.Shake || {};
   Shake.Game.Characters.add(<%= @characters.to_json.html_safe %>);
-  Shake.Game.Scene = <%= @scene.to_json(:include => { :paragraphs => {:include => :lines}}).html_safe %>;
+  Shake.Game.Paragraphs = <%= @paragraphs.to_json(:include => :lines).html_safe %>;
   var server = new Shake.Server();
   server.init();
 
