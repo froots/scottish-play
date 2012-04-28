@@ -71,6 +71,9 @@
 
   // Views
   EnterView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'enter',
+
     initialize: function() {
       this.tmpl = JST['templates/enter'];
     },
